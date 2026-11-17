@@ -39,7 +39,7 @@ See `results/RESULTS.md` for per-batch counts and CPU; `results/*/cases.md` per 
   the first run of stage D5 failed on a missing input (`out/lift11_prices.json`): the previous session had
   vendored only the certificates, not the ~107 input records the replay reads (price tables, type lists,
   validation/independent-check records, the four witness sets). They are now in `lp/certs/` (small) and
-  `big/lp_inputs/` (600 MB, 16 files, pinned by `lp/BIG_INPUTS.sha256`; not in git; no archive is currently published), and `lp/replay_lp.sh` refuses to run without them. The exact read closure of the replay is
+  `big/lp_inputs/` (600 MB, 16 files, pinned by `lp/BIG_INPUTS.sha256`; not in git; attached as assets to GitHub release `v1.0`), and `lp/replay_lp.sh` refuses to run without them. The exact read closure of the replay is
   logged by `lp/trace_open.py` in `lp/log/opened_files.tsv`: nothing is read outside `lp/` and
   `big/lp_inputs/` (one file, `plane10_geometries.json`, is regenerated on the fly). Measured total: 1.9 h
   wall on a shared box.
@@ -68,9 +68,10 @@ See `results/RESULTS.md` for per-batch counts and CPU; `results/*/cases.md` per 
 4. NOT DONE: a second machine (x86-64) replay of `replay.sh full` with independently built tools (the cake_lpr
    x64 .S file is in the pinned commit).
 5. ~~Nik(2,9) is deliberately excluded (review job was still running).~~ **Resolved 2026-11-13**: Nik(2,9) = 63 is in §A (row above) at the Nik(2,8) standard; hostile review of the research proof in `nik29/REPORT.md`, final audit in `nik29/FINAL_AUDIT.md`.
-6. Publication target: https://github.com/yui-sh/kakeya-nikodym-exact. This copy is staged locally for
-   public release; the repository has not been published by this preparation step. No Zenodo deposit;
+6. Published 2026-11-17 UTC at https://github.com/yui-sh/kakeya-nikodym-exact. No Zenodo deposit;
    no email was sent or is planned. The Munim issue is not yet posted (`DRAFT_ISSUE.md`).
+7. Some historical per-case records and `nik29/FINAL_AUDIT.md` (verbatim tool output) contain absolute
+   paths from the machine the runs were made on. They are left as produced.
 
 ## D. Found wrong or shaky in the originals (be blunt)
 * **Nik(3,3) = 9** was supported only by a CP-SAT "OPTIMAL" status in three WLOG cases (no proof
@@ -79,7 +80,7 @@ See `results/RESULTS.md` for per-batch counts and CPU; `results/*/cases.md` per 
   certificate log exists in `nikodym-fq/out/`; `flag_d` has no saved proof record (the CP-SAT run
   covered both). Now both cases certified.
 * **Nik(2,8) = 48**: the original proof used the max-line split with AΓL(1,8) axis-orbit cubes, whose
-  helper `axis_orbit_reps` contains dead dummy code (`f = [... if False else None ...]`); the
+  helper `axis_orbit_reps` contains dead placeholder code (`f = [... if False else None ...]`); the
   cubes themselves were checked by drat-trim. The release uses a different, simpler split (flag) so
   this code is not in the trust base.
 * **K(3,4), K(4,3), Nik(3,4)** research proofs were checked with drat-trim (unverified) and the DRAT

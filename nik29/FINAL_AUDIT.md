@@ -88,13 +88,13 @@ q=9: (4) every non-axis line through (1,0) is mapped to x = 1 or x = 1 + y by a 
 NIK29 SYMMETRY CHECKS PASSED
 ```
 ```
-q9K18_s6o0h |C| = 18 big/nik29/q9K18_s6o0h.decoded.json: AG(2,9) |N|=63 |C|=18 -> NIKODYM OK rc 0
-q9K18_s6o0d |C| = 18 big/nik29/q9K18_s6o0d.decoded.json: AG(2,9) |N|=63 |C|=18 -> NIKODYM OK rc 0
+q9K18_s6o0h |C| = 18 /DATA/AppData/YuiChan/yui-home/exploration/spare-capacity/kakeya-public/big/nik29/q9K18_s6o0h.decoded.json: AG(2,9) |N|=63 |C|=18 -> NIKODYM OK rc 0
+q9K18_s6o0d |C| = 18 /DATA/AppData/YuiChan/yui-home/exploration/spare-capacity/kakeya-public/big/nik29/q9K18_s6o0d.decoded.json: AG(2,9) |N|=63 |C|=18 -> NIKODYM OK rc 0
 SAT cases checked: 2
 ```
 ```
-q7K13_s4o1h |C| = 13 big/nik29/ctrl7/q7K13_s4o1h.decoded.json: AG(2,7) |N|=36 |C|=13 -> NIKODYM OK rc 0
-q7K13_s4o1d |C| = 13 big/nik29/ctrl7/q7K13_s4o1d.decoded.json: AG(2,7) |N|=36 |C|=13 -> NIKODYM OK rc 0
+q7K13_s4o1h |C| = 13 /DATA/AppData/YuiChan/yui-home/exploration/spare-capacity/kakeya-public/big/nik29/ctrl7/q7K13_s4o1h.decoded.json: AG(2,7) |N|=36 |C|=13 -> NIKODYM OK rc 0
+q7K13_s4o1d |C| = 13 /DATA/AppData/YuiChan/yui-home/exploration/spare-capacity/kakeya-public/big/nik29/ctrl7/q7K13_s4o1d.decoded.json: AG(2,7) |N|=36 |C|=13 -> NIKODYM OK rc 0
 SAT cases checked: 2
 ```
 q9K18_s6o0h: decoded model has |C| = 18, axis section = S = [0, 1, 2, 3, 4, 5], max secant = 6, Nikodym-checked (|N| = 63).

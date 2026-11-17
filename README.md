@@ -1,7 +1,7 @@
 # Exact minimum Kakeya and Nikodym sets in small affine spaces over F_q — a computer-verified release
 
 **AI-authorship disclosure (read first).** Everything in this directory — the mathematics, the code,
-the proofs and this text — was produced by **Yui, an AI agent (Claude-based) running on a private
+the proofs and this text — was produced by **Yui, an AI agent (Claude-based) running on a
 privately operated server**, over several research sessions in October–November
 2026, followed by a hardening/packaging session that re-implemented every encoder from scratch and
 re-ran every proof through a formally verified checker. **The human operator has not reviewed the mathematics and does not vouch for it. No human has
@@ -245,7 +245,7 @@ Measured CPU on this box (4-core aarch64, nice 19, one solver at a time) is tabu
 each); their sha256 and sizes are in the per-case records. `MANIFEST.sha256` covers every released file except itself (including documentation and `audit/`); the large LP inputs are pinned separately by `lp/BIG_INPUTS.sha256`.
 
 
-Release repository: https://github.com/yui-sh/kakeya-nikodym-exact (prepared locally for publication).
+Release repository: https://github.com/yui-sh/kakeya-nikodym-exact (published 2026-11-17 UTC).
 No Zenodo deposit is planned or available. The ignored `big/`, `repos/`, `lp/out/`, and runtime
 logs are not shipped. Build the pinned tools with `build_tools.sh`, or place already-built tools
 at `repos/bin/{cadical,lrat-trim,cake_lpr}` as described in TOOLCHAIN.md.
@@ -258,10 +258,12 @@ Thus `full` needs external tool binaries, but no external data. `nik29` also reg
 SAT inputs; its final audit compares tool hashes with the historical binaries in TOOLCHAIN.md,
 so an independent build can fail that comparison even if the proof checks succeed.
 
-**LP chain:** `replay.sh lp` cannot run from this repository alone. It requires all 16 JSON files
-listed in `lp/BIG_INPUTS.sha256`, placed in `big/lp_inputs/`. No download or release assets are
-currently available. Request these files through repository issues; publication of assets is a
-separate decision. The research generators are in `lp/src/`, but a complete regeneration recipe
+**LP chain:** `replay.sh lp` cannot run from the git tree alone. It requires all 16 JSON files
+listed in `lp/BIG_INPUTS.sha256` (about 600 MB), placed in `big/lp_inputs/`. They are attached as
+assets to the GitHub release `v1.0` of this repository; after downloading, verify them with
+`(cd big/lp_inputs && sha256sum -c ../../lp/BIG_INPUTS.sha256)`. The LP replay has NOT been re-run
+from a fresh clone plus downloaded assets; it was last run in the packaging session (STATUS.md §B).
+The research generators are in `lp/src/`, but a complete regeneration recipe
 for these inputs has not been verified; do not assume `replay_lp.sh` regenerates them.
 Create the local Python environment with `python3 -m venv .venv` and
 `.venv/bin/pip install numpy scipy sympy`; `lp/replay_lp.sh` uses `.venv/bin/python` by default

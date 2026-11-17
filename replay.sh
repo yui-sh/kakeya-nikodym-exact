@@ -41,5 +41,5 @@ if [ "$stage" = nik29 ]; then
 fi
 if [ "$stage" = lp ]; then bash lp/replay_lp.sh all; fi
 python3 src/collect_results.py
-echo "== manifest"; python3 src/manifest.py --check MANIFEST.sha256 || echo "(manifest mismatch: regenerate with 'python3 src/manifest.py MANIFEST.sha256 src witnesses specs results nik29 lp/certs lp/src')"
+echo "== manifest"; python3 src/manifest.py --check MANIFEST.sha256 || echo "(expected after a replay: it rewrites timing records and summaries under results/ and nik29/, so those hashes change. MANIFEST.sha256 pins the released snapshot: every tracked file except itself. Check it BEFORE replaying, in a clean clone.)"
 echo "REPLAY $stage DONE"
