@@ -1,0 +1,27 @@
+{
+ "status": "EXACT_D5_CORRECTED_TABLE_REPLAYED",
+ "fresh_prices": true,
+ "results": [
+  {
+   "config": "515",
+   "certificate": "out/coverage11_cert_515_root.json",
+   "certificate_sha256": "9fe1ce2329c01292246bd73b84fcee6f9ebf039950509378b42598d35451b9e3",
+   "detail": {
+    "rhs": -11612655,
+    "min_column": 3
+   }
+  },
+  {
+   "config": "617",
+   "certificate": "out/coverage13_cert_pair_root_ipm.json",
+   "certificate_sha256": "b299cc5285e0b2e318947f556ed93233d1e8935f1f3db843a36cf2a2a2701dad",
+   "detail": {
+    "rhs": -11879470,
+    "min_column": 0
+   }
+  }
+ ],
+ "ledger_sha256": "c177ab5f1371436840e430c09e0583565f087a09dd4667b53faee394fd986058",
+ "ledger_untouched": true,
+ "projection_table_sha256": "7591c5679490ebd79e56b74db97612b3437c3cfce88daa26dd5d72d9c3cd8781"
+}

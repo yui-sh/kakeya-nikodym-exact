@@ -1,0 +1,20 @@
+{
+ "cnf": "k33_ub13_D3_r0.cnf",
+ "cnf_sha256": "77cc205f05ab7db48eedfe504fd5ac7b8b9ffd3b95864aef4583fb2b7be93f7d",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 0.03,
+ "result": "UNSAT",
+ "lrat_bytes": 253518,
+ "lrat_sha256": "bd12e288db11643a5a139f71c74b7781c757e10f97780fddf1620adeb77fffdf",
+ "trim_seconds": 0.02,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 104334,
+ "trim_lrat_sha256": "fb7be3f5e0d8f5dd0788cbf193f45729918a3b8a370c4446cfabaf78dec29411",
+ "cake_seconds": 0.02,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

@@ -1,0 +1,642 @@
+[
+{
+"name": "q7K14_s2o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"2",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s2o0h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s2o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"2",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s2o0d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s3o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"3",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s3o0h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s3o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"3",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s3o0d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s3o1h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"3",
+"--orbit",
+"1",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s3o1h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s3o1d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"3",
+"--orbit",
+"1",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s3o1d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s4o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"4",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s4o0h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s4o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"4",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s4o0d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s4o1h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"4",
+"--orbit",
+"1",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s4o1h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s4o1d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"4",
+"--orbit",
+"1",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s4o1d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s5o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"5",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s5o0h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s5o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"5",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s5o0d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s6o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"6",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s6o0h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s6o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"6",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s6o0d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s7o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"7",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K14_s7o0h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K14_s7o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"14",
+"--s",
+"7",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K14_s7o0d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "q7K13_s2o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"2",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s2o0h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s2o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"2",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s2o0d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s3o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"3",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s3o0h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s3o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"3",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s3o0d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s3o1h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"3",
+"--orbit",
+"1",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s3o1h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s3o1d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"3",
+"--orbit",
+"1",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s3o1d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s4o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"4",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s4o0h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s4o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"4",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s4o0d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s4o1h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"4",
+"--orbit",
+"1",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s4o1h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s4o1d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"4",
+"--orbit",
+"1",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s4o1d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s5o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"5",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s5o0h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s5o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"5",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s5o0d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s6o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"6",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s6o0h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s6o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"6",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s6o0d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s7o0h",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"7",
+"--orbit",
+"0",
+"--tan",
+"h",
+"--out",
+"../big/nik29/ctrl7/q7K13_s7o0h.cnf"
+],
+"expect": "SAT-or-UNSAT"
+},
+{
+"name": "q7K13_s7o0d",
+"gen": [
+"python3",
+"enc_nik29.py",
+"--q",
+"7",
+"--K",
+"13",
+"--s",
+"7",
+"--orbit",
+"0",
+"--tan",
+"d",
+"--out",
+"../big/nik29/ctrl7/q7K13_s7o0d.cnf"
+],
+"expect": "SAT-or-UNSAT"
+}
+]

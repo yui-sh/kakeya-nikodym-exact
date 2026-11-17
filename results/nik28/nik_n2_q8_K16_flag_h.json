@@ -1,0 +1,12 @@
+{
+ "cnf": "nik_n2_q8_K16_flag_h.cnf",
+ "cnf_sha256": "9346ed977bb06a41fc004884cf4ef5670bfd62b0829563755f4dd527d7e14e7d",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 0.75,
+ "result": "SAT",
+ "model_file": "/DATA/AppData/YuiChan/yui-home/exploration/spare-capacity/kakeya-public/big/nik28/nik_n2_q8_K16_flag_h.cnf.model"
+}

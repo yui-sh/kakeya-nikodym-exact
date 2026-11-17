@@ -1,0 +1,38 @@
+[
+{
+"name": "k34_ub28_D4_r1",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"28",
+"--D",
+"4",
+"--rep",
+"1",
+"--out",
+"../big/k34ctrl/k34_ub28_D4_r1.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "k34_ub28_D4_r2",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"28",
+"--D",
+"4",
+"--rep",
+"2",
+"--out",
+"../big/k34ctrl/k34_ub28_D4_r2.cnf"
+],
+"expect": "SAT"
+}
+]

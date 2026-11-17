@@ -1,0 +1,36 @@
+{
+ "D": 7,
+ "family": "binary-subset-within-line-triples-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "planes": 39,
+   "checks": 9828,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "planes": 84,
+   "checks": 21168,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "planes": 6,
+   "checks": 1512,
+   "full_type_checks": 1512,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "planes": 10,
+   "checks": 2520,
+   "full_type_checks": 2520,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 108
+}

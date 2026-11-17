@@ -1,0 +1,11 @@
+{
+ "D": 7,
+ "status": "EXACT_POINT14_HUNGARIAN_AGREEMENT",
+ "types": 5737,
+ "core_types": 2737,
+ "sample_types": 3000,
+ "prices": 68844,
+ "assignment_matrices": 68844,
+ "mismatches": 0,
+ "method": "independent integer Hungarian optimization over every matching section profile; no selected-allocation pricer calls"
+}

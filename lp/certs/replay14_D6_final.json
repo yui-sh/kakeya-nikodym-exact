@@ -1,0 +1,35 @@
+{
+ "status": "EXACT_COVERAGE14_REPLAYED",
+ "D": 6,
+ "fresh_prices": true,
+ "counts": {
+  "pruned_certified": 51244,
+  "surviving": 0,
+  "open": 0
+ },
+ "tree_cases": 51244,
+ "certificates": [
+  {
+   "node": "515:",
+   "certificate": "out/cert14_D6_515_root.json",
+   "sha256": "c8aa197221b051203abb938a1f82b8fb9244bed81d3bd5a392c14aec08c9c620",
+   "rows": 130747,
+   "columns": 1164257,
+   "cases": 25622,
+   "rhs": -363712730240,
+   "min_column": 0
+  },
+  {
+   "node": "617:",
+   "certificate": "out/cert14_D6_617_root.json",
+   "sha256": "c695d937c0bdd09f4714b856e044eadc9a8e841e2f0259d59c6b16bf523bd27a",
+   "rows": 279308,
+   "columns": 1972486,
+   "cases": 25622,
+   "rhs": -363713866140,
+   "min_column": 0
+  }
+ ],
+ "ledger_sha256": "0e1c0abfce85c6c197fa1e50959fa137d6e832420216dfb9009015902313405f",
+ "utc": "2026-11-04T04:28:49Z"
+}

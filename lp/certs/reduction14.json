@@ -1,0 +1,95 @@
+{
+ "status": "EXACT_REDUCTION14_VERIFIED",
+ "results": [
+  {
+   "file": "out/lp_probe_rmax4.json",
+   "log": "out/reduction14_00.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_5_21.json",
+   "log": "out/reduction14_01.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_5_18.json",
+   "log": "out/reduction14_02.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_5_17.json",
+   "log": "out/reduction14_03.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_5_16.json",
+   "log": "out/reduction14_04.log",
+   "verified": 4
+  },
+  {
+   "file": "out/lp_probe_cfg_5_15.json",
+   "log": "out/reduction14_05.log",
+   "verified": 4
+  },
+  {
+   "file": "out/lp_probe_cfg_6_25.json",
+   "log": "out/reduction14_06.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_6_21.json",
+   "log": "out/reduction14_07.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_6_19.json",
+   "log": "out/reduction14_08.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_6_18.json",
+   "log": "out/reduction14_09.log",
+   "verified": 8
+  },
+  {
+   "file": "out/lp_probe_cfg_6_17.json",
+   "log": "out/reduction14_10.log",
+   "verified": 4
+  },
+  {
+   "file": "out/lp_probe_f7_cfg_5_15.json",
+   "log": "out/reduction14_11.log",
+   "verified": 1
+  },
+  {
+   "file": "out/lp_probe_f7_cfg_5_16.json",
+   "log": "out/reduction14_12.log",
+   "verified": 4
+  },
+  {
+   "file": "out/lp_probe_f7_cfg_6_17.json",
+   "log": "out/reduction14_13.log",
+   "verified": 1
+  }
+ ],
+ "degree_range_before_LP": [
+  4,
+  11
+ ],
+ "degree_range_after_V_VI": [
+  5,
+  7
+ ],
+ "configurations": [
+  [
+   5,
+   15
+  ],
+  [
+   6,
+   17
+  ]
+ ],
+ "projection_table_sha256": "7591c5679490ebd79e56b74db97612b3437c3cfce88daa26dd5d72d9c3cd8781",
+ "manifest_sha256": "7b41f2b2900092d5d58e46b48af4b0355d468f14d6cf8a59858ed8350707d778"
+}

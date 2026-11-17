@@ -1,0 +1,132 @@
+[
+{
+"name": "cap_3_1_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"3",
+"1",
+"--out",
+"../big/k43ctrl/cap_3_1_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_4_1_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"4",
+"1",
+"--out",
+"../big/k43ctrl/cap_4_1_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_5_2_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"5",
+"2",
+"--out",
+"../big/k43ctrl/cap_5_2_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_6_3_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"6",
+"3",
+"--out",
+"../big/k43ctrl/cap_6_3_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_7_4_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"7",
+"4",
+"--out",
+"../big/k43ctrl/cap_7_4_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_8_4_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"8",
+"4",
+"--out",
+"../big/k43ctrl/cap_8_4_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_9_6_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"9",
+"6",
+"--out",
+"../big/k43ctrl/cap_9_6_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_10_7_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"10",
+"7",
+"--out",
+"../big/k43ctrl/cap_10_7_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_11_9_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"11",
+"9",
+"--out",
+"../big/k43ctrl/cap_11_9_sat.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "cap_12_10_sat",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"12",
+"10",
+"--out",
+"../big/k43ctrl/cap_12_10_sat.cnf"
+],
+"expect": "SAT"
+}
+]

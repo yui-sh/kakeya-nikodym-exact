@@ -1,0 +1,1 @@
+{"n": 3, "q": 2, "source": "out/cpsat_n3_q2_tan2_e1.json", "C": [[0, 0, 0], [0, 0, 1], [0, 1, 0], [0, 1, 1], [1, 0, 1], [1, 1, 1]], "case": "tan2_e1", "status": "OPTIMAL"}

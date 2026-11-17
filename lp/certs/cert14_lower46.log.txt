@@ -1,0 +1,11 @@
+c(r,k) >= 0 on all admissible pairs; smallest values: [0, 6, 7, 10, 17, 20, 24, 32]
+sum_pi c = 60*n**2 - 4927*n + 100223
+  n=39: -670
+  n=40: -857
+  n=41: -924
+  n=42: -871
+  n=43: -698
+  n=44: -405
+  n=45: 8
+  n=46: 541
+=> every witness system in AG(3,5) has n >= 46: certificate OK

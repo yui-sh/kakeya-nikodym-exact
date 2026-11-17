@@ -1,0 +1,62 @@
+{
+ "D": 7,
+ "family": "parallel-degree-subset-rounding-v1",
+ "types": 371813,
+ "histograms": 44324,
+ "prices": 107082144,
+ "sha256": "b1d6d4ea0c835b7f54e286fdc2ca82cdc7da567539032384f46a4f9f69cea962",
+ "formula": "mu_a(S,t)=floor(sum_{j in S} h_j/t), constant on every admitted assignment",
+ "subsets": [
+  [
+   1
+  ],
+  [
+   1,
+   2
+  ],
+  [
+   1,
+   2,
+   3
+  ],
+  [
+   1,
+   2,
+   3,
+   4
+  ],
+  [
+   1,
+   2,
+   3,
+   4,
+   5
+  ],
+  [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6
+  ],
+  [
+   2
+  ],
+  [
+   3
+  ],
+  [
+   4
+  ],
+  [
+   5
+  ],
+  [
+   6
+  ],
+  [
+   7
+  ]
+ ]
+}

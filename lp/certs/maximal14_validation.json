@@ -1,0 +1,58 @@
+{
+ "status": "EXACT_MAXIMAL14_REDUCTION",
+ "reduction_sha256": "4224ff76f3962475a3567962b9e806e8b3ab079d5ab448bbe7ba18cbb6d59c4e",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "q": 3,
+   "n": 13,
+   "D": 3,
+   "rmax": 3,
+   "premises_active": false,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "q": 4,
+   "n": 28,
+   "D": 6,
+   "rmax": 5,
+   "premises_active": false,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "q": 5,
+   "n": 53,
+   "D": 6,
+   "rmax": 6,
+   "premises_active": false,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "q": 5,
+   "n": 53,
+   "D": 6,
+   "rmax": 6,
+   "premises_active": false,
+   "violations": 0
+  }
+ ],
+ "known_set_warning": "All four examples are outside n=46 premises; these conditional checks are vacuous. Validity is proved by the 82 replayed exclusion certificates, not empirically by these examples.",
+ "excluded_unions": {
+  "515": [
+   16,
+   17,
+   18,
+   21
+  ],
+  "617": [
+   18,
+   19,
+   21,
+   25
+  ]
+ },
+ "argument": "Existence of any other maximal-r plane is one of the globally excluded configurations. Lower-r unions are not restricted."
+}

@@ -1,0 +1,36 @@
+{
+ "D": 7,
+ "family": "plane-point-coplanar-triples-by-degree-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "checks": 390,
+   "global_bound_checks": 5,
+   "point_bound_checks": 13,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "checks": 840,
+   "global_bound_checks": 5,
+   "point_bound_checks": 13,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "checks": 1550,
+   "global_bound_checks": 5,
+   "point_bound_checks": 29,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "checks": 1550,
+   "global_bound_checks": 5,
+   "point_bound_checks": 27,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 32
+}

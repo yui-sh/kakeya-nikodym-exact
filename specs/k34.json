@@ -1,0 +1,782 @@
+[
+{
+"name": "k34_ub27_D4_r0",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"4",
+"--rep",
+"0",
+"--out",
+"../big/k34/k34_ub27_D4_r0.cnf",
+"--meta",
+"../big/k34/k34_ub27_D4_r0.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D4_r1",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"4",
+"--rep",
+"1",
+"--out",
+"../big/k34/k34_ub27_D4_r1.cnf",
+"--meta",
+"../big/k34/k34_ub27_D4_r1.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D4_r2",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"4",
+"--rep",
+"2",
+"--out",
+"../big/k34/k34_ub27_D4_r2.cnf",
+"--meta",
+"../big/k34/k34_ub27_D4_r2.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D5_r0",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"5",
+"--rep",
+"0",
+"--out",
+"../big/k34/k34_ub27_D5_r0.cnf",
+"--meta",
+"../big/k34/k34_ub27_D5_r0.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D5_r1",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"5",
+"--rep",
+"1",
+"--out",
+"../big/k34/k34_ub27_D5_r1.cnf",
+"--meta",
+"../big/k34/k34_ub27_D5_r1.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D5_r2",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"5",
+"--rep",
+"2",
+"--out",
+"../big/k34/k34_ub27_D5_r2.cnf",
+"--meta",
+"../big/k34/k34_ub27_D5_r2.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D5_r3",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"5",
+"--rep",
+"3",
+"--out",
+"../big/k34/k34_ub27_D5_r3.cnf",
+"--meta",
+"../big/k34/k34_ub27_D5_r3.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D5_r4",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"5",
+"--rep",
+"4",
+"--out",
+"../big/k34/k34_ub27_D5_r4.cnf",
+"--meta",
+"../big/k34/k34_ub27_D5_r4.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r0",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"0",
+"--out",
+"../big/k34/k34_ub27_D6_r0.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r0.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r1",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"1",
+"--out",
+"../big/k34/k34_ub27_D6_r1.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r1.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r2",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"2",
+"--out",
+"../big/k34/k34_ub27_D6_r2.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r2.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r3",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"3",
+"--out",
+"../big/k34/k34_ub27_D6_r3.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r3.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r4",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"4",
+"--out",
+"../big/k34/k34_ub27_D6_r4.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r4.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r5",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"5",
+"--out",
+"../big/k34/k34_ub27_D6_r5.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r5.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r6",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"6",
+"--out",
+"../big/k34/k34_ub27_D6_r6.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r6.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D6_r7",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"6",
+"--rep",
+"7",
+"--out",
+"../big/k34/k34_ub27_D6_r7.cnf",
+"--meta",
+"../big/k34/k34_ub27_D6_r7.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r0",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"0",
+"--out",
+"../big/k34/k34_ub27_D7_r0.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r0.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r1",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"1",
+"--out",
+"../big/k34/k34_ub27_D7_r1.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r1.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r2",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"2",
+"--out",
+"../big/k34/k34_ub27_D7_r2.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r2.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r3",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"3",
+"--out",
+"../big/k34/k34_ub27_D7_r3.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r3.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r4",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"4",
+"--out",
+"../big/k34/k34_ub27_D7_r4.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r4.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r5",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"5",
+"--out",
+"../big/k34/k34_ub27_D7_r5.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r5.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r6",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"6",
+"--out",
+"../big/k34/k34_ub27_D7_r6.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r6.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r7",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"7",
+"--out",
+"../big/k34/k34_ub27_D7_r7.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r7.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r8",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"8",
+"--out",
+"../big/k34/k34_ub27_D7_r8.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r8.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D7_r9",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"7",
+"--rep",
+"9",
+"--out",
+"../big/k34/k34_ub27_D7_r9.cnf",
+"--meta",
+"../big/k34/k34_ub27_D7_r9.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r0",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"0",
+"--out",
+"../big/k34/k34_ub27_D8_r0.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r0.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r1",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"1",
+"--out",
+"../big/k34/k34_ub27_D8_r1.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r1.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r2",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"2",
+"--out",
+"../big/k34/k34_ub27_D8_r2.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r2.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r3",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"3",
+"--out",
+"../big/k34/k34_ub27_D8_r3.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r3.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r4",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"4",
+"--out",
+"../big/k34/k34_ub27_D8_r4.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r4.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r5",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"5",
+"--out",
+"../big/k34/k34_ub27_D8_r5.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r5.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r6",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"6",
+"--out",
+"../big/k34/k34_ub27_D8_r6.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r6.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r7",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"7",
+"--out",
+"../big/k34/k34_ub27_D8_r7.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r7.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r8",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"8",
+"--out",
+"../big/k34/k34_ub27_D8_r8.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r8.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r9",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"9",
+"--out",
+"../big/k34/k34_ub27_D8_r9.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r9.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r10",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"10",
+"--out",
+"../big/k34/k34_ub27_D8_r10.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r10.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r11",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"11",
+"--out",
+"../big/k34/k34_ub27_D8_r11.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r11.meta.json"
+],
+"expect": "UNSAT"
+},
+{
+"name": "k34_ub27_D8_r12",
+"gen": [
+"python3",
+"enc_kakeya_maxdeg.py",
+"--q",
+"4",
+"--ub",
+"27",
+"--D",
+"8",
+"--rep",
+"12",
+"--out",
+"../big/k34/k34_ub27_D8_r12.cnf",
+"--meta",
+"../big/k34/k34_ub27_D8_r12.meta.json"
+],
+"expect": "UNSAT"
+}
+]

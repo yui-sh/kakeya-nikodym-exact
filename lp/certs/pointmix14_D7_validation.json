@@ -1,0 +1,32 @@
+{
+ "D": 7,
+ "family": "joint-point-pairs-rich-secants-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "checks": 1560,
+   "conditional_cap_checks": 52,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "checks": 3360,
+   "conditional_cap_checks": 48,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "checks": 6200,
+   "conditional_cap_checks": 116,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "checks": 6200,
+   "conditional_cap_checks": 108,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 18
+}

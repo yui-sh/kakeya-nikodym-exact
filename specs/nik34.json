@@ -1,0 +1,604 @@
+[
+{
+"name": "n20_m4383_v0",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m4383_v0",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m4383_v0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_m4383_v1",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m4383_v1",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m4383_v1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_m4383_d15",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m4383_d15",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m4383_d15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_m4383_d10305",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m4383_d10305",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m4383_d10305.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_m4415_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m4415_anchor",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m4415_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_m4479_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m4479_anchor",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m4479_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_m5023_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_m5023_anchor",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_m5023_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4383_v0",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4383_v0",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4383_v0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4383_v1",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4383_v1",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4383_v1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4383_d15",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4383_d15",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4383_d15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4383_d10305",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4383_d10305",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4383_d10305.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4415_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4415_anchor",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4415_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4479_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4479_anchor",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4479_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_v0",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_v0",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_v0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_v1",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_v1",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_v1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_v4",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_v4",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_v4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_v5",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_v5",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_v5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_v8",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_v8",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_v8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_d15",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_d15",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_d15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_d4369",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_d4369",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_d4369.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4607_d10305",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4607_d10305",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4607_d10305.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_v0",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_v0",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_v0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_v1",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_v1",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_v1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_v3",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_v3",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_v3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_v6",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_v6",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_v6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_d15",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_d15",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_d15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_d10305",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_d10305",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_d10305.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4959_d33825",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4959_d33825",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4959_d33825.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m4991_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m4991_anchor",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m4991_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m5023_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m5023_anchor",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m5023_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m5055_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m5055_anchor",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m5055_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m5087_anchor",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m5087_anchor",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m5087_anchor.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m14687_v0",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m14687_v0",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m14687_v0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m14687_v1",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m14687_v1",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m14687_v1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m14687_v6",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m14687_v6",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m14687_v6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m14687_d15",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m14687_d15",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m14687_d15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m14687_d10305",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m14687_d10305",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m14687_d10305.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_m14687_d17025",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_m14687_d17025",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_m14687_d17025.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "control22_cone",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"control22_cone",
+"--k",
+"22",
+"--out",
+"../big/nik34/control22_cone.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "n20_parallel_pair",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_parallel_pair",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_parallel_pair.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n20_skew_pair",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n20_skew_pair",
+"--k",
+"20",
+"--out",
+"../big/nik34/n20_skew_pair.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_parallel_pair",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_parallel_pair",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_parallel_pair.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "n21_skew_pair",
+"gen": [
+"python3",
+"enc_nik34.py",
+"--case",
+"n21_skew_pair",
+"--k",
+"21",
+"--out",
+"../big/nik34/n21_skew_pair.cnf"
+],
+"expect": "UNSAT"
+}
+]

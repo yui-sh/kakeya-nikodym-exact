@@ -1,0 +1,38 @@
+[
+{
+"name": "nik_n2_q8_K16_flag_h",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"8",
+"--K",
+"16",
+"--case",
+"flag_h",
+"--out",
+"../big/nik28/nik_n2_q8_K16_flag_h.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n2_q8_K16_flag_d",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"8",
+"--K",
+"16",
+"--case",
+"flag_d",
+"--out",
+"../big/nik28/nik_n2_q8_K16_flag_d.cnf"
+],
+"expect": "SAT"
+}
+]

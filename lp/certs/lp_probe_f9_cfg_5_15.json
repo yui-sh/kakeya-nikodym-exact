@@ -1,0 +1,27 @@
+{
+  "46,5": {
+    "status": "feasible",
+    "cert_msg": "feasible (phase-1 optimum 0)",
+    "solve_s": 70.38,
+    "info": {
+      "plane_types": 95348,
+      "sections": true,
+      "class_types": 2364,
+      "dir_types": 210,
+      "line_vectors": 1539,
+      "wline_types": 9384,
+      "wline_degree_types": 126,
+      "flag_kinds": 218,
+      "flag_vars": 178091,
+      "unmarked_rows": 218,
+      "unmarked_excluded_pairs": 0,
+      "dmh_Y": 395926,
+      "dmh_Z": 93186
+    },
+    "nvars": 776199,
+    "nrows": 30294,
+    "max_eq_residual": 9.094947017729282e-12,
+    "max_ineq_violation": 3.257651618927461e-13,
+    "min_variable": -5.7957583655135585e-12
+  }
+}

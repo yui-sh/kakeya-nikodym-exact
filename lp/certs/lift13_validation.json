@@ -1,0 +1,31 @@
+{
+ "family": "signed-pair-subsets-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "checks": 234,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "checks": 2520,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "checks": 4650,
+   "full_type_checks": 240,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "checks": 4650,
+   "full_type_checks": 360,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 192
+}

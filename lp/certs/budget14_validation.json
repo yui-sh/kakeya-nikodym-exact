@@ -1,0 +1,267 @@
+{
+ "family": "nonnegative-quadratic-plane-budget-v1",
+ "status": "EXACT_PLANE_BUDGET14_VERIFIED",
+ "q": 5,
+ "n": 46,
+ "budget": 541,
+ "shift": 0,
+ "plane_cost": "10*k^2-(150+17*r)*k+560+143*r",
+ "total_cost": "60*n^2-4927*n+100223",
+ "enumerations": [
+  {
+   "q": 3,
+   "minima": [
+    0,
+    3,
+    5,
+    6,
+    7
+   ],
+   "configurations": [
+    1,
+    12,
+    54,
+    108,
+    81
+   ],
+   "witnesses": [
+    [],
+    [
+     9
+    ],
+    [
+     6,
+     9
+    ],
+    [
+     3,
+     6,
+     10
+    ],
+    [
+     0,
+     3,
+     6,
+     10
+    ]
+   ]
+  },
+  {
+   "q": 4,
+   "minima": [
+    0,
+    4,
+    7,
+    9,
+    10,
+    10
+   ],
+   "configurations": [
+    1,
+    20,
+    160,
+    640,
+    1280,
+    1024
+   ],
+   "witnesses": [
+    [],
+    [
+     16
+    ],
+    [
+     12,
+     16
+    ],
+    [
+     8,
+     12,
+     17
+    ],
+    [
+     4,
+     8,
+     13,
+     17
+    ],
+    [
+     0,
+     4,
+     9,
+     15,
+     18
+    ]
+   ]
+  },
+  {
+   "q": 5,
+   "minima": [
+    0,
+    5,
+    9,
+    12,
+    14,
+    15,
+    17
+   ],
+   "configurations": [
+    1,
+    30,
+    375,
+    2500,
+    9375,
+    18750,
+    15625
+   ],
+   "witnesses": [
+    [],
+    [
+     25
+    ],
+    [
+     20,
+     25
+    ],
+    [
+     15,
+     20,
+     26
+    ],
+    [
+     10,
+     15,
+     21,
+     26
+    ],
+    [
+     5,
+     10,
+     16,
+     23,
+     26
+    ],
+    [
+     0,
+     5,
+     10,
+     16,
+     22,
+     29
+    ]
+   ]
+  }
+ ],
+ "admitted_k": {
+  "0": [
+   1,
+   2,
+   3,
+   4,
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14
+  ],
+  "1": [
+   5,
+   6,
+   7,
+   8,
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15
+  ],
+  "2": [
+   9,
+   10,
+   11,
+   12,
+   13,
+   14,
+   15,
+   16
+  ],
+  "3": [
+   12,
+   13,
+   14,
+   15,
+   16,
+   17
+  ],
+  "4": [
+   14,
+   15,
+   16,
+   17,
+   18
+  ],
+  "5": [
+   15,
+   16,
+   17,
+   18,
+   19
+  ],
+  "6": [
+   17,
+   18,
+   19,
+   20,
+   21
+  ]
+ },
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "q": 3,
+   "n": 13,
+   "shift": 20,
+   "planes": 39,
+   "total_cost": 7774,
+   "max_plane_cost": 220,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "q": 4,
+   "n": 28,
+   "shift": 105,
+   "planes": 84,
+   "total_cost": 10647,
+   "max_plane_cost": 225,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "q": 5,
+   "n": 53,
+   "shift": 0,
+   "planes": 155,
+   "total_cost": 7632,
+   "max_plane_cost": 222,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "q": 5,
+   "n": 53,
+   "shift": 0,
+   "planes": 155,
+   "total_cost": 7632,
+   "max_plane_cost": 300,
+   "violations": 0
+  }
+ ],
+ "argument": "All plane costs are nonnegative; their sum is the stated fixed budget. A plane occurs as one actual plane, so its cost cannot exceed the total. The type filter is a necessary condition for actual witness systems, using integer plane populations."
+}

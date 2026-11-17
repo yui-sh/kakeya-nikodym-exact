@@ -1,0 +1,30 @@
+{
+ "status": "EXACT_GEOMETRIC_INPUTS14_REPLAYED",
+ "q": 5,
+ "line_systems": 46656,
+ "profile_counts": {
+  "0": 1,
+  "1": 1,
+  "2": 1,
+  "3": 2,
+  "4": 3,
+  "5": 5,
+  "6": 6
+ },
+ "planar_minima": {
+  "0": 0,
+  "1": 5,
+  "2": 9,
+  "3": 12,
+  "4": 14,
+  "5": 15,
+  "6": 17
+ },
+ "method": "direct slope/intercept coordinates and bitmask occupancy levels; no inside_profiles generator calls",
+ "degree_independence": "These tables record only geometric unions, multiplicities, and section signatures keyed by q/r; no ambient D, m, h, or degree assignment enters them.",
+ "input_sha256": {
+  "out/inside_profiles_q5.json": "4a1502685f340c12dcb98869c89caa5332f3ff4df98eda4467d35480016e2bd9",
+  "out/plane_f.json": "711eff8b5f34aafec23db7b671111ea3905ea5288ec59a36f9a1878d30700880",
+  "out/sections3_q5_r5.json": "d992d556a139469a43f93b84e075a7b7fde58515648f5eedde3386a34d8bc3be"
+ }
+}

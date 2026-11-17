@@ -1,0 +1,20 @@
+{
+ "cnf": "k34_ub27_D5_r2.cnf",
+ "cnf_sha256": "4da7e2eddb85d5844a41cb5d9169f197d857a8584ae6286280a572f6ac68c0a3",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 21.86,
+ "result": "UNSAT",
+ "lrat_bytes": 128644750,
+ "lrat_sha256": "5e8928ea1fb9167a3a2e3f40fde14464ff4f4871c1125fe3d77f62409f683706",
+ "trim_seconds": 1.38,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 46504286,
+ "trim_lrat_sha256": "227eff6f336f09a8745747ca33e753d12be02f0a1e55f3d241636d251d4710e5",
+ "cake_seconds": 2.91,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

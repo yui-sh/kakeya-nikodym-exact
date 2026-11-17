@@ -1,0 +1,20 @@
+{
+ "cnf": "q7K14_s4o0h.cnf",
+ "cnf_sha256": "bced965d9391d45f0d5123973e1fd1cfedf7b29db575a662d614ddc72623c292",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 0.22,
+ "result": "UNSAT",
+ "lrat_bytes": 1928601,
+ "lrat_sha256": "ae78b5dfdcde15753f14a0ef1db44601387bbb3e6f8b187a6004b602e6ee8c4d",
+ "trim_seconds": 0.02,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 756862,
+ "trim_lrat_sha256": "57cf3a034af12de6883c772649ed9ccecbd22362f925bba2cf97edf284d54a08",
+ "cake_seconds": 0.06,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

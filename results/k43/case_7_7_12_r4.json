@@ -1,0 +1,20 @@
+{
+ "cnf": "case_7_7_12_r4.cnf",
+ "cnf_sha256": "14392dcfeecf2b250fcbf329e207f2a89d2e7bbe13d244fc3d2fbd37e121eb4d",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 13.28,
+ "result": "UNSAT",
+ "lrat_bytes": 78540631,
+ "lrat_sha256": "ed2adef549a1c5b42949178488aaebf5c943912632ea2375e555d4d48ce35c7e",
+ "trim_seconds": 0.61,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 25543023,
+ "trim_lrat_sha256": "7323b2511c0b7ded922a33dd416cb89ef4cdeabe4685989c9b6e95a887379621",
+ "cake_seconds": 1.98,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

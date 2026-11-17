@@ -1,0 +1,12 @@
+{
+ "D": 7,
+ "status": "EXACT_DP14_VERIFIED",
+ "core_types": 2737,
+ "sample_types": 221701,
+ "types": 224438,
+ "objectives": 3448676,
+ "states": 59336004,
+ "mismatches": 0,
+ "method": "exhaustive histogram-state recursion, independent of Hungarian",
+ "sample_seed": 140007
+}

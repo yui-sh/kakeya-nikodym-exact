@@ -1,0 +1,10 @@
+{
+  "file": "out/sections3_q5_r5.json",
+  "sha256": "d992d556a139469a43f93b84e075a7b7fde58515648f5eedde3386a34d8bc3be",
+  "parameters": {
+    "q": 5,
+    "rmin": 5
+  },
+  "degree_independence": "sections.py enumerates all point subsets and distinct-direction inside line choices in AG(2,q), recording k,r,u,c,t,e only; neither D nor ambient degrees nor m occur in this universe.",
+  "use": "reused geometric section signatures; all ambient degree histograms and prices regenerated"
+}

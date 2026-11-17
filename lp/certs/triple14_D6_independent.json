@@ -1,0 +1,51 @@
+{
+ "D": 6,
+ "status": "EXACT_BINARY14_ENUMERATOR_AGREEMENT",
+ "records": [
+  {
+   "signature": [
+    5,
+    15,
+    null,
+    15,
+    [
+     0,
+     10,
+     15,
+     0,
+     5
+    ],
+    [
+     [
+      3,
+      3,
+      3,
+      3,
+      3
+     ]
+    ]
+   ],
+   "subsets": 32768,
+   "profiles": 66
+  },
+  {
+   "signature": [
+    6,
+    17,
+    null,
+    17,
+    [
+     0,
+     4,
+     16,
+     4,
+     6
+    ],
+    null
+   ],
+   "subsets": 131072,
+   "profiles": 210
+  }
+ ],
+ "mismatches": 0
+}

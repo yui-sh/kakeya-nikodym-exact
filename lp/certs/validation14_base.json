@@ -1,0 +1,24 @@
+{
+ "status": "ZERO_VIOLATIONS",
+ "mfree": true,
+ "families": "F1-F9 including sections, exact pencil items, R4, F7, F8 and F9; Y3 not used",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "violations": 0
+  }
+ ],
+ "projection_table_sha256": "7591c5679490ebd79e56b74db97612b3437c3cfce88daa26dd5d72d9c3cd8781"
+}

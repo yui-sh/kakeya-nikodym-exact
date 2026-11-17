@@ -1,0 +1,32 @@
+{
+ "D": 7,
+ "family": "plane-point-crossing-pairs-by-degree-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "checks": 468,
+   "global_identities": 6,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "checks": 1008,
+   "global_identities": 6,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "checks": 1860,
+   "global_identities": 6,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "checks": 1860,
+   "global_identities": 6,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 48
+}

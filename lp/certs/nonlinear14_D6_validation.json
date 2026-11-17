@@ -1,0 +1,36 @@
+{
+ "D": 6,
+ "family": "binary-subset-within-line-pairs-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "planes": 39,
+   "checks": 4836,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "planes": 84,
+   "checks": 10416,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "planes": 6,
+   "checks": 744,
+   "full_type_checks": 744,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "planes": 10,
+   "checks": 1240,
+   "full_type_checks": 1240,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 108
+}

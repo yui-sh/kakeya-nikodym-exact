@@ -1,0 +1,3435 @@
+{
+ "schema": 14,
+ "q": 5,
+ "n": 46,
+ "D": 7,
+ "family": "all-subsets-core-plus-all-coordinate-v1",
+ "raw_vectors": 137209,
+ "total": 274418,
+ "roots": [
+  "515:",
+  "617:"
+ ],
+ "nodes": {
+  "515:": {
+   "config": "515",
+   "prefix": [],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_515_root_strongroot.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "phase1": 36571.0,
+     "rhs": -365706024350,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 175,
+     "phase1_mode": "nonzero_rhs_artificials",
+     "explicit_feasible_start": false,
+     "simplex_presolve": "off",
+     "numerical_projection": "core G/Z with sign-valid row projection",
+     "solver": "simplex",
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 385.6594602440018,
+     "allowance": 1800,
+     "utc": "2026-11-03T23:36:28Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:": {
+   "config": "617",
+   "prefix": [],
+   "status": "split",
+   "children": [
+    "617:0",
+    "617:1",
+    "617:2",
+    "617:3",
+    "617:4",
+    "617:5",
+    "617:6",
+    "617:7",
+    "617:8",
+    "617:9",
+    "617:10",
+    "617:11",
+    "617:12",
+    "617:13",
+    "617:14",
+    "617:15",
+    "617:16",
+    "617:17",
+    "617:18",
+    "617:19",
+    "617:20",
+    "617:21",
+    "617:22",
+    "617:23",
+    "617:24",
+    "617:25",
+    "617:26",
+    "617:27"
+   ],
+   "prefix_probe_done": true,
+   "reason": "Unrestricted root projection remains unresolved; switch to complementary m1>=1 range after exact m1=0 certificate",
+   "probes": [
+    {
+     "status": "open",
+     "reason": "Manually stopped after eight unfinished 120-second intervals; replaced by validated stronger star-four compact root",
+     "solver": "simplex",
+     "last_completed_solver_seconds": 963.2343127727509,
+     "certificate": null,
+     "utc": "2026-11-03T23:51:30Z"
+    },
+    {
+     "status": "open",
+     "reason": "Manually stopped after five unfinished intervals; testing global-count projection with stronger star-four bounds while core star probe continues",
+     "solver": "simplex",
+     "last_completed_solver_seconds": 600.8469121456146,
+     "certificate": null,
+     "utc": "2026-11-03T23:57:04Z"
+    },
+    {
+     "phase1": 0.0,
+     "phase1_mode": "nonzero_rhs_artificials",
+     "explicit_feasible_start": false,
+     "residual_check": {
+      "min_variable": -1.2139309152556487e-11,
+      "max_scaled_row_violation": 2.4029622169986028e-11
+     },
+     "degree_values": [
+      0.09392971245987673,
+      2.3319488817869782,
+      27.50047923323092,
+      14.9249201277944,
+      -3.9312080151137414e-13,
+      -3.7208741795289723e-13,
+      1.1487220447285706
+     ],
+     "simplex_presolve": "off",
+     "numerical_projection": "drop rows involving X,Y,Z,G; remove unused columns",
+     "reason": "projected feasibility only; full prefix not solved",
+     "candidate_dual": "out/dual14_D7_617_root_1793750383655411514.npz",
+     "solver": "simplex",
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 30.60596674203407,
+     "allowance": 900,
+     "utc": "2026-11-03T23:59:43Z",
+     "status": "open"
+    },
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "phase1_mode": "nonzero_rhs_artificials",
+     "explicit_feasible_start": false,
+     "simplex_presolve": "off",
+     "numerical_projection": "core G/Z with sign-valid row projection",
+     "candidate_dual": "out/dual14_D7_617_root_1793751005849894681.npz",
+     "solver": "simplex",
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 968.5339836250059,
+     "allowance": 1800,
+     "utc": "2026-11-04T00:10:05Z",
+     "status": "open"
+    },
+    {
+     "status": "open",
+     "reason": "Stopped direct root after numerical instability without exact ray; replacing with compact m1 prefixes",
+     "method": "direct",
+     "solver": "simplex",
+     "last_logged_solver_seconds": 515,
+     "certificate": null,
+     "utc": "2026-11-04T00:14:31Z"
+    },
+    {
+     "status": "open",
+     "reason": "Stopped restricted-Q root without exact ray; testing stronger rounded-budget global constraints",
+     "method": "direct",
+     "solver": "simplex",
+     "restricted_Q_columns": 138,
+     "certificate": null,
+     "utc": "2026-11-04T00:23:42Z"
+    },
+    {
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "residual_check": {
+      "min_variable": -9.355479354174652e-14,
+      "max_scaled_row_violation": 1.143089616018056e-11
+     },
+     "degree_values": [
+      0.09005487925501353,
+      2.249501041925232,
+      27.658593954845983,
+      14.859263231819952,
+      -0.0,
+      -0.0,
+      1.1425868921538276
+     ],
+     "numerical_projection": "drop rows involving X,Y,Z,G; remove unused columns",
+     "reason": "projected/restricted numerical feasibility only; full prefix not solved",
+     "candidate_dual": "out/dual14_D7_617_root_1793752052742836129.npz",
+     "solver": "simplex",
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 77.83761854609475,
+     "allowance": 900,
+     "utc": "2026-11-04T00:27:32Z",
+     "status": "open"
+    },
+    {
+     "method": "finite-column-phase1",
+     "reason": "time limit or requested stop",
+     "rounds": 22,
+     "active_columns": 41533,
+     "full_columns": 671696,
+     "numerical_projection": "core G/Z with sign-valid row projection",
+     "candidate_dual": "out/dual14_D7_617_root_1793754283274148997.npz",
+     "solver": "simplex",
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 625.2002254369436,
+     "allowance": 3600,
+     "utc": "2026-11-04T01:04:43Z",
+     "status": "open"
+    },
+    {
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "residual_check": {
+      "min_variable": -3.268496584496461e-13,
+      "max_scaled_row_violation": 1.3642420526593924e-12
+     },
+     "degree_values": [
+      0.3835336231142755,
+      1.6511122475071294,
+      27.874137049347894,
+      14.9822296087957,
+      -0.0,
+      2.410304636290791e-14,
+      1.1089874712349768
+     ],
+     "numerical_projection": "drop rows involving X,Y,Z,G; remove unused columns",
+     "reason": "projected/restricted numerical feasibility only; full prefix not solved",
+     "candidate_dual": "out/dual14_D7_617_root_1793754565834067693.npz",
+     "solver": "simplex",
+     "rich": true,
+     "extra": false,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": false,
+     "cut_scope": "coordinate",
+     "nonlinear_scope": "all",
+     "seconds": 81.42166427592747,
+     "allowance": 1800,
+     "utc": "2026-11-04T01:09:25Z",
+     "status": "open"
+    },
+    {
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "residual_check": {
+      "min_variable": -7.259690369124394e-13,
+      "max_scaled_row_violation": 2.2506441155201173e-12
+     },
+     "degree_values": [
+      0.09392971246025159,
+      2.3319488817902467,
+      27.50047923322408,
+      14.92492012779684,
+      2.0990890938141122e-13,
+      1.16341191812891e-14,
+      1.1487220447283661
+     ],
+     "numerical_projection": "drop rows involving X,Y,Z,G; remove unused columns",
+     "reason": "projected/restricted numerical feasibility only; full prefix not solved",
+     "candidate_dual": "out/dual14_D7_617_root_1793755105699838760.npz",
+     "solver": "simplex",
+     "point_mix": true,
+     "rich": true,
+     "extra": false,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": false,
+     "cut_scope": "coordinate",
+     "nonlinear_scope": "all",
+     "seconds": 71.08585177001078,
+     "allowance": 900,
+     "utc": "2026-11-04T01:18:25Z",
+     "status": "open"
+    },
+    {
+     "status": "open",
+     "reason": "Stopped numerically unstable direct simplex; no certificate",
+     "solver": "simplex",
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "seconds": null,
+     "utc": "2026-11-04T01:31:01Z",
+     "stop_record": "out/stopped14_D7_617_globalrounddegree.json"
+    },
+    {
+     "status": "open",
+     "pid": 1002473,
+     "pgid": 1002472,
+     "reason": "Unrestricted root projection remains unresolved; switch to complementary m1>=1 range after exact m1=0 certificate",
+     "utc": "2026-11-04T02:04:13Z",
+     "stop_record": "out/stopped14_D7_617_scaledglobal.json"
+    }
+   ]
+  },
+  "617:0": {
+   "config": "617",
+   "prefix": [
+    0
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:0,0",
+    "617:0,1",
+    "617:0,2",
+    "617:0,3",
+    "617:0,4",
+    "617:0,5",
+    "617:0,6",
+    "617:0,7",
+    "617:0,8",
+    "617:0,9",
+    "617:0,10",
+    "617:0,11",
+    "617:0,12",
+    "617:0,13",
+    "617:0,14",
+    "617:0,15",
+    "617:0,16",
+    "617:0,17",
+    "617:0,18",
+    "617:0,19",
+    "617:0,20",
+    "617:0,21",
+    "617:0,22",
+    "617:0,23",
+    "617:0,24",
+    "617:0,25",
+    "617:0,26",
+    "617:0,27",
+    "617:0,28",
+    "617:0,29",
+    "617:0,30",
+    "617:0,31",
+    "617:0,32",
+    "617:0,33"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "reason": "no numerical dual ray",
+     "solver_status": "HighsModelStatus.kInfeasible",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_0_1793751941163649072.npz",
+     "candidate_degree_values": [
+      5.010515451431274e-07,
+      -60612162.636202365,
+      111012864.30911767,
+      -35396852.69540169,
+      -20244352.296329148,
+      5688785.623402689,
+      -448236.30458749225
+     ],
+     "solver": "simplex",
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 601.7160300319083,
+     "allowance": 600,
+     "utc": "2026-11-04T00:25:41Z",
+     "status": "open"
+    },
+    {
+     "reason": "no numerical dual ray",
+     "solver_status": "HighsModelStatus.kInfeasible",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "rhs": -333052517602,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 971,
+     "candidate_after_stop": true,
+     "numerical_row_scaling": "positive powers of two; duals restored to original integer rows before all exact checks",
+     "solver": "ipm",
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 1756.3951471499167,
+     "allowance": 1800,
+     "utc": "2026-11-04T02:01:55Z",
+     "status": "LP-certified"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_0_scaled0.json"
+  },
+  "617:1": {
+   "config": "617",
+   "prefix": [
+    1
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:1,0",
+    "617:1,1",
+    "617:1,2",
+    "617:1,3",
+    "617:1,4",
+    "617:1,5",
+    "617:1,6",
+    "617:1,7",
+    "617:1,8",
+    "617:1,9",
+    "617:1,10",
+    "617:1,11",
+    "617:1,12",
+    "617:1,13",
+    "617:1,14",
+    "617:1,15",
+    "617:1,16",
+    "617:1,17",
+    "617:1,18",
+    "617:1,19",
+    "617:1,20",
+    "617:1,21",
+    "617:1,22",
+    "617:1,23",
+    "617:1,24",
+    "617:1,25",
+    "617:1,26",
+    "617:1,27",
+    "617:1,28",
+    "617:1,29",
+    "617:1,30",
+    "617:1,31",
+    "617:1,32"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_1_1793752589425132573.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "rounded_budget": false,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 602.4910313680302,
+     "allowance": 600,
+     "utc": "2026-11-04T00:36:29Z",
+     "status": "open"
+    },
+    {
+     "status": "open",
+     "pid": 1106745,
+     "pgid": 1106744,
+     "reason": "Phase-I soft prefix bounds leave a large reduced model; try bounded homogeneous formulation preserving their ratios",
+     "utc": "2026-11-04T02:13:43Z"
+    },
+    {
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "objective": 0.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": 0.0,
+     "reason": "No verified original-model primal or exact Farkas candidate",
+     "candidate_dual": "out/dual14_D7_617_1_1793760337790204540.npz",
+     "candidate_degree_values": [
+      -0.005464135986330096,
+      -0.0020933037974725332,
+      -0.0012689369684117417,
+      -0.006181198315150823,
+      -0.006232402665695457,
+      -0.0062249852085761405,
+      -0.0059773436210887
+     ],
+     "solver": "ipm",
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 1816.3392738440307,
+     "allowance": 1800,
+     "utc": "2026-11-04T02:45:37Z",
+     "status": "open"
+    },
+    {
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "objective": -1.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": 0.0,
+     "reason": "No verified original-model primal or exact Farkas candidate",
+     "numerical_row_selection": "adaptive subset of full validated local rows; all original columns retained",
+     "active_rows": 118201,
+     "full_rows": 261837,
+     "row_rounds": 0,
+     "candidate_dual": "out/dual14_D7_617_1_1793761376496719725.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      -11.566019862936319
+     ],
+     "solver": "simplex",
+     "point_subset": true,
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 903.396323615103,
+     "allowance": 900,
+     "utc": "2026-11-04T03:02:56Z",
+     "status": "open"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   }
+  },
+  "617:2": {
+   "config": "617",
+   "prefix": [
+    2
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:2,0",
+    "617:2,1",
+    "617:2,2",
+    "617:2,3",
+    "617:2,4",
+    "617:2,5",
+    "617:2,6",
+    "617:2,7",
+    "617:2,8",
+    "617:2,9",
+    "617:2,10",
+    "617:2,11",
+    "617:2,12",
+    "617:2,13",
+    "617:2,14",
+    "617:2,15",
+    "617:2,16",
+    "617:2,17",
+    "617:2,18",
+    "617:2,19",
+    "617:2,20",
+    "617:2,21",
+    "617:2,22",
+    "617:2,23",
+    "617:2,24",
+    "617:2,25",
+    "617:2,26",
+    "617:2,27",
+    "617:2,28",
+    "617:2,29",
+    "617:2,30",
+    "617:2,31"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_2_1793753250733863816.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "nonfano": false,
+     "rounded_budget": false,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 603.3888584730448,
+     "allowance": 600,
+     "utc": "2026-11-04T00:47:30Z",
+     "status": "open"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   }
+  },
+  "617:3": {
+   "config": "617",
+   "prefix": [
+    3
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:4": {
+   "config": "617",
+   "prefix": [
+    4
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:5": {
+   "config": "617",
+   "prefix": [
+    5
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:6": {
+   "config": "617",
+   "prefix": [
+    6
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:7": {
+   "config": "617",
+   "prefix": [
+    7
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:8": {
+   "config": "617",
+   "prefix": [
+    8
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:9": {
+   "config": "617",
+   "prefix": [
+    9
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:10": {
+   "config": "617",
+   "prefix": [
+    10
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:11": {
+   "config": "617",
+   "prefix": [
+    11
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:12": {
+   "config": "617",
+   "prefix": [
+    12
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:13": {
+   "config": "617",
+   "prefix": [
+    13
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:14": {
+   "config": "617",
+   "prefix": [
+    14
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:15": {
+   "config": "617",
+   "prefix": [
+    15
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:16": {
+   "config": "617",
+   "prefix": [
+    16
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:17": {
+   "config": "617",
+   "prefix": [
+    17
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:18": {
+   "config": "617",
+   "prefix": [
+    18
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:19": {
+   "config": "617",
+   "prefix": [
+    19
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:20": {
+   "config": "617",
+   "prefix": [
+    20
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:21": {
+   "config": "617",
+   "prefix": [
+    21
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:22": {
+   "config": "617",
+   "prefix": [
+    22
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:23": {
+   "config": "617",
+   "prefix": [
+    23
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   },
+   "prefix_probe_done": true
+  },
+  "617:24": {
+   "config": "617",
+   "prefix": [
+    24
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:24,0",
+    "617:24,1",
+    "617:24,2",
+    "617:24,3",
+    "617:24,4"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_24_1793754699895293646.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "extra": false,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 604.9721031740773,
+     "allowance": 600,
+     "utc": "2026-11-04T01:11:40Z",
+     "status": "open"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   }
+  },
+  "617:25": {
+   "config": "617",
+   "prefix": [
+    25
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:25,0",
+    "617:25,1",
+    "617:25,2",
+    "617:25,3"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_25_1793753994480310213.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 603.9757083390141,
+     "allowance": 600,
+     "utc": "2026-11-04T00:59:54Z",
+     "status": "open"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   }
+  },
+  "617:26": {
+   "config": "617",
+   "prefix": [
+    26
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:26,0",
+    "617:26,1",
+    "617:26,2"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "reason": "no numerical dual ray",
+     "solver_status": "HighsModelStatus.kInfeasible",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_26_1793753321255082960.npz",
+     "candidate_degree_values": [
+      25.999999999921886,
+      42.33185512485352,
+      -0.0,
+      -288.2400220926072,
+      407.15262368610996,
+      -150.24445671829164,
+      9.0
+     ],
+     "solver": "simplex",
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 602.4125233170344,
+     "allowance": 600,
+     "utc": "2026-11-04T00:48:41Z",
+     "status": "open"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_domain_m1ge1_subset_bounded.json",
+   "certificate_domain": {
+    "m1_min": 1
+   }
+  },
+  "617:27": {
+   "config": "617",
+   "prefix": [
+    27
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_27_d7high1_27.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "method": "direct",
+     "rhs": -88411556407,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 9,
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "solver": "simplex",
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "none",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "pair",
+     "nonlinear_scope": "pair",
+     "seconds": 2.434042869019322,
+     "allowance": 600,
+     "utc": "2026-11-04T00:37:31Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:0,0": {
+   "config": "617",
+   "prefix": [
+    0,
+    0
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_0_0_d7extra2a_0_0.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "method": "direct",
+     "rhs": -12578665131,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 9,
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "solver": "simplex",
+     "point_mix": false,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 0.4837401770055294,
+     "allowance": 300,
+     "utc": "2026-11-04T01:12:29Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:0,1": {
+   "config": "617",
+   "prefix": [
+    0,
+    1
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_0_1_d7extra2a_0_1.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "method": "direct",
+     "rhs": -20760727870,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 137,
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "solver": "simplex",
+     "point_mix": false,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 3.008354649064131,
+     "allowance": 300,
+     "utc": "2026-11-04T01:13:02Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:0,2": {
+   "config": "617",
+   "prefix": [
+    0,
+    2
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:0,2,28",
+    "617:0,2,29",
+    "617:0,2,30",
+    "617:0,2,31",
+    "617:0,2,32",
+    "617:0,2,33",
+    "617:0,2,34",
+    "617:0,2,35",
+    "617:0,2,36",
+    "617:0,2,37",
+    "617:0,2,38",
+    "617:0,2,39"
+   ],
+   "certificate": "out/cert14_D7_617_0_2_extra02.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "method": "direct",
+     "rhs": -171468056334,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 374,
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "solver": "simplex",
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 7.744033085065894,
+     "allowance": 1800,
+     "utc": "2026-11-04T01:11:12Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:0,3": {
+   "config": "617",
+   "prefix": [
+    0,
+    3
+   ],
+   "status": "LP-certified",
+   "children": [
+    "617:0,3,26",
+    "617:0,3,27",
+    "617:0,3,28",
+    "617:0,3,29",
+    "617:0,3,30",
+    "617:0,3,31",
+    "617:0,3,32",
+    "617:0,3,33",
+    "617:0,3,34",
+    "617:0,3,35",
+    "617:0,3,36",
+    "617:0,3,37",
+    "617:0,3,38"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_0_3_1793755115460751288.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "point_mix": false,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 300.2690370370401,
+     "allowance": 300,
+     "utc": "2026-11-04T01:18:35Z",
+     "status": "open"
+    },
+    {
+     "reason": "no numerical dual ray",
+     "solver_status": "HighsModelStatus.kInfeasible",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "rhs": -1143053478973,
+     "min_column": 1,
+     "scale": 10000000,
+     "bump": 9005,
+     "candidate_after_stop": true,
+     "numerical_row_scaling": "positive powers of two; duals restored to original integer rows before all exact checks",
+     "solver": "ipm",
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 47.45210929901805,
+     "allowance": 900,
+     "utc": "2026-11-04T01:31:14Z",
+     "status": "LP-certified"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_0_3_scaled03.json"
+  },
+  "617:0,4": {
+   "config": "617",
+   "prefix": [
+    0,
+    4
+   ],
+   "status": "split",
+   "children": [
+    "617:0,4,24",
+    "617:0,4,25",
+    "617:0,4,26",
+    "617:0,4,27",
+    "617:0,4,28",
+    "617:0,4,29",
+    "617:0,4,30",
+    "617:0,4,31",
+    "617:0,4,32",
+    "617:0,4,33",
+    "617:0,4,34",
+    "617:0,4,35",
+    "617:0,4,36"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_0_4_1793755444973718706.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "round_degree": false,
+     "point_mix": false,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 300.72740247892216,
+     "allowance": 300,
+     "utc": "2026-11-04T01:24:04Z",
+     "status": "open"
+    }
+   ]
+  },
+  "617:0,5": {
+   "config": "617",
+   "prefix": [
+    0,
+    5
+   ],
+   "status": "split",
+   "children": [
+    "617:0,5,22",
+    "617:0,5,23",
+    "617:0,5,24",
+    "617:0,5,25",
+    "617:0,5,26",
+    "617:0,5,27",
+    "617:0,5,28",
+    "617:0,5,29",
+    "617:0,5,30",
+    "617:0,5,31",
+    "617:0,5,32",
+    "617:0,5,33",
+    "617:0,5,34",
+    "617:0,5,35"
+   ],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kTimeLimit",
+     "method": "direct",
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_0_5_1793755776281083154.npz",
+     "candidate_degree_values": [
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0,
+      0.0
+     ],
+     "solver": "simplex",
+     "round_degree": false,
+     "point_mix": false,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 300.52140831109136,
+     "allowance": 300,
+     "utc": "2026-11-04T01:29:36Z",
+     "status": "open"
+    }
+   ]
+  },
+  "617:0,6": {
+   "config": "617",
+   "prefix": [
+    0,
+    6
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,7": {
+   "config": "617",
+   "prefix": [
+    0,
+    7
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,8": {
+   "config": "617",
+   "prefix": [
+    0,
+    8
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,9": {
+   "config": "617",
+   "prefix": [
+    0,
+    9
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,10": {
+   "config": "617",
+   "prefix": [
+    0,
+    10
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,11": {
+   "config": "617",
+   "prefix": [
+    0,
+    11
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,12": {
+   "config": "617",
+   "prefix": [
+    0,
+    12
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,13": {
+   "config": "617",
+   "prefix": [
+    0,
+    13
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,14": {
+   "config": "617",
+   "prefix": [
+    0,
+    14
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,15": {
+   "config": "617",
+   "prefix": [
+    0,
+    15
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,16": {
+   "config": "617",
+   "prefix": [
+    0,
+    16
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,17": {
+   "config": "617",
+   "prefix": [
+    0,
+    17
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,18": {
+   "config": "617",
+   "prefix": [
+    0,
+    18
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,19": {
+   "config": "617",
+   "prefix": [
+    0,
+    19
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,20": {
+   "config": "617",
+   "prefix": [
+    0,
+    20
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,21": {
+   "config": "617",
+   "prefix": [
+    0,
+    21
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,22": {
+   "config": "617",
+   "prefix": [
+    0,
+    22
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,23": {
+   "config": "617",
+   "prefix": [
+    0,
+    23
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,24": {
+   "config": "617",
+   "prefix": [
+    0,
+    24
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,25": {
+   "config": "617",
+   "prefix": [
+    0,
+    25
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,26": {
+   "config": "617",
+   "prefix": [
+    0,
+    26
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,27": {
+   "config": "617",
+   "prefix": [
+    0,
+    27
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,28": {
+   "config": "617",
+   "prefix": [
+    0,
+    28
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,29": {
+   "config": "617",
+   "prefix": [
+    0,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,30": {
+   "config": "617",
+   "prefix": [
+    0,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,31": {
+   "config": "617",
+   "prefix": [
+    0,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,32": {
+   "config": "617",
+   "prefix": [
+    0,
+    32
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,33": {
+   "config": "617",
+   "prefix": [
+    0,
+    33
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,28": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    28
+   ],
+   "status": "split",
+   "children": [
+    "617:0,2,28,15"
+   ]
+  },
+  "617:0,2,29": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,30": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,31": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,32": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    32
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,33": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    33
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,34": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    34
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,35": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    35
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,36": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    36
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,37": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    37
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,38": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    38
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,39": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    39
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,2,28,15": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    28,
+    15
+   ],
+   "status": "split",
+   "children": [
+    "617:0,2,28,15,0"
+   ]
+  },
+  "617:0,2,28,15,0": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    28,
+    15,
+    0
+   ],
+   "status": "split",
+   "children": [
+    "617:0,2,28,15,0,0"
+   ]
+  },
+  "617:0,2,28,15,0,0": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    28,
+    15,
+    0,
+    0
+   ],
+   "status": "split",
+   "children": [
+    "617:0,2,28,15,0,0,1"
+   ]
+  },
+  "617:0,2,28,15,0,0,1": {
+   "config": "617",
+   "prefix": [
+    0,
+    2,
+    28,
+    15,
+    0,
+    0,
+    1
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "prefix_probe_done": true,
+   "reason": "unfinished prefix solve",
+   "probes": [
+    {
+     "solver_status": "HighsModelStatus.kInfeasible",
+     "phase1_mode": "nonzero_rhs_artificials",
+     "explicit_feasible_start": false,
+     "candidate_dual": "out/dual14_D7_617_0_2_28_15_0_0_1_1793750465186192658.npz",
+     "candidate_degree_values": [
+      105.0801989431906,
+      7.69429220931896,
+      30.992699648947976,
+      373.8435300051088,
+      -0.03541694657355362,
+      -0.045770868929769795,
+      0.011726220573296855
+     ],
+     "solver": "ipm",
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 1.0341609689639881,
+     "allowance": 900,
+     "utc": "2026-11-04T00:01:05Z",
+     "status": "open"
+    },
+    {
+     "method": "direct",
+     "rhs": -19096535992,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 3,
+     "phase1_mode": "none_direct",
+     "explicit_feasible_start": false,
+     "solver": "simplex",
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 2.0900332839228213,
+     "allowance": 900,
+     "utc": "2026-11-04T00:01:55Z",
+     "status": "LP-certified"
+    }
+   ],
+   "certificate": "out/cert14_D7_617_0_2_28_15_0_0_1_near_direct.json"
+  },
+  "617:1,0": {
+   "config": "617",
+   "prefix": [
+    1,
+    0
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_1_0_boundedsubset1_1_0.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "redundant_original_row_bounds": true,
+     "simplex_strategy": 1,
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kOptimal",
+     "objective": 0.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": -0.0,
+     "rhs": -9881857,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 5,
+     "numerical_row_selection": "adaptive subset of full validated local rows; all original columns retained",
+     "active_rows": 10384,
+     "full_rows": 11702,
+     "row_rounds": 0,
+     "solver": "simplex",
+     "point_subset": true,
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 3.0966568049043417,
+     "allowance": 600,
+     "utc": "2026-11-04T03:04:27Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:1,1": {
+   "config": "617",
+   "prefix": [
+    1,
+    1
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_1_1_boundedsubset1_1_1.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "redundant_original_row_bounds": true,
+     "simplex_strategy": 1,
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kOptimal",
+     "objective": 0.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": -0.0,
+     "rhs": -9930052,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 3,
+     "numerical_row_selection": "adaptive subset of full validated local rows; all original columns retained",
+     "active_rows": 16892,
+     "full_rows": 22926,
+     "row_rounds": 0,
+     "solver": "simplex",
+     "point_subset": true,
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 12.226893651066348,
+     "allowance": 600,
+     "utc": "2026-11-04T03:05:25Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:1,2": {
+   "config": "617",
+   "prefix": [
+    1,
+    2
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_1_2_boundedsubset1_1_2.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "redundant_original_row_bounds": true,
+     "simplex_strategy": 1,
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kOptimal",
+     "objective": 0.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": -0.0,
+     "rhs": -9856798,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 6,
+     "numerical_row_selection": "adaptive subset of full validated local rows; all original columns retained",
+     "active_rows": 24948,
+     "full_rows": 37742,
+     "row_rounds": 0,
+     "solver": "simplex",
+     "point_subset": true,
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 34.34651676798239,
+     "allowance": 600,
+     "utc": "2026-11-04T03:06:55Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:1,3": {
+   "config": "617",
+   "prefix": [
+    1,
+    3
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_1_3_boundedsubset1_1_3.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "redundant_original_row_bounds": true,
+     "simplex_strategy": 1,
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kOptimal",
+     "objective": 0.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": -0.0,
+     "rhs": -9903258,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 4,
+     "numerical_row_selection": "adaptive subset of full validated local rows; all original columns retained",
+     "active_rows": 32931,
+     "full_rows": 55135,
+     "row_rounds": 0,
+     "solver": "simplex",
+     "point_subset": true,
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 55.450340306037106,
+     "allowance": 600,
+     "utc": "2026-11-04T03:08:52Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:1,4": {
+   "config": "617",
+   "prefix": [
+    1,
+    4
+   ],
+   "status": "LP-certified",
+   "children": [],
+   "certificate": "out/cert14_D7_617_1_4_boundedsubset1_1_4.json",
+   "prefix_probe_done": true,
+   "probes": [
+    {
+     "redundant_original_row_bounds": true,
+     "simplex_strategy": 1,
+     "method": "homogeneous bounded feasibility",
+     "solver_status": "HighsModelStatus.kOptimal",
+     "objective": 0.0,
+     "numerical_row_scaling": "positive powers of two; original-row dual restored",
+     "homogenizing_t": -0.0,
+     "rhs": -9880031,
+     "min_column": 0,
+     "scale": 10000000,
+     "bump": 5,
+     "numerical_row_selection": "adaptive subset of full validated local rows; all original columns retained",
+     "active_rows": 42889,
+     "full_rows": 77667,
+     "row_rounds": 0,
+     "solver": "simplex",
+     "point_subset": true,
+     "round_degree": true,
+     "point_mix": true,
+     "rich": true,
+     "extra": true,
+     "nonfano": true,
+     "rounded_budget": true,
+     "star_bounds": true,
+     "point_triples": true,
+     "plane_budget": true,
+     "point_pairs": true,
+     "compact_objectives": true,
+     "triple_scope": "all",
+     "degree_hull": true,
+     "pair_bounds": true,
+     "maximal_only": true,
+     "nonlinear": true,
+     "cut_scope": "all",
+     "nonlinear_scope": "all",
+     "seconds": 171.7815236520255,
+     "allowance": 600,
+     "utc": "2026-11-04T03:12:57Z",
+     "status": "LP-certified"
+    }
+   ]
+  },
+  "617:1,5": {
+   "config": "617",
+   "prefix": [
+    1,
+    5
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,6": {
+   "config": "617",
+   "prefix": [
+    1,
+    6
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,7": {
+   "config": "617",
+   "prefix": [
+    1,
+    7
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,8": {
+   "config": "617",
+   "prefix": [
+    1,
+    8
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,9": {
+   "config": "617",
+   "prefix": [
+    1,
+    9
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,10": {
+   "config": "617",
+   "prefix": [
+    1,
+    10
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,11": {
+   "config": "617",
+   "prefix": [
+    1,
+    11
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,12": {
+   "config": "617",
+   "prefix": [
+    1,
+    12
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,13": {
+   "config": "617",
+   "prefix": [
+    1,
+    13
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,14": {
+   "config": "617",
+   "prefix": [
+    1,
+    14
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,15": {
+   "config": "617",
+   "prefix": [
+    1,
+    15
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,16": {
+   "config": "617",
+   "prefix": [
+    1,
+    16
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,17": {
+   "config": "617",
+   "prefix": [
+    1,
+    17
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,18": {
+   "config": "617",
+   "prefix": [
+    1,
+    18
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,19": {
+   "config": "617",
+   "prefix": [
+    1,
+    19
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,20": {
+   "config": "617",
+   "prefix": [
+    1,
+    20
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,21": {
+   "config": "617",
+   "prefix": [
+    1,
+    21
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,22": {
+   "config": "617",
+   "prefix": [
+    1,
+    22
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,23": {
+   "config": "617",
+   "prefix": [
+    1,
+    23
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,24": {
+   "config": "617",
+   "prefix": [
+    1,
+    24
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,25": {
+   "config": "617",
+   "prefix": [
+    1,
+    25
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,26": {
+   "config": "617",
+   "prefix": [
+    1,
+    26
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,27": {
+   "config": "617",
+   "prefix": [
+    1,
+    27
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,28": {
+   "config": "617",
+   "prefix": [
+    1,
+    28
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,29": {
+   "config": "617",
+   "prefix": [
+    1,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,30": {
+   "config": "617",
+   "prefix": [
+    1,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,31": {
+   "config": "617",
+   "prefix": [
+    1,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:1,32": {
+   "config": "617",
+   "prefix": [
+    1,
+    32
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,0": {
+   "config": "617",
+   "prefix": [
+    2,
+    0
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,1": {
+   "config": "617",
+   "prefix": [
+    2,
+    1
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,2": {
+   "config": "617",
+   "prefix": [
+    2,
+    2
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,3": {
+   "config": "617",
+   "prefix": [
+    2,
+    3
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,4": {
+   "config": "617",
+   "prefix": [
+    2,
+    4
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,5": {
+   "config": "617",
+   "prefix": [
+    2,
+    5
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,6": {
+   "config": "617",
+   "prefix": [
+    2,
+    6
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,7": {
+   "config": "617",
+   "prefix": [
+    2,
+    7
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,8": {
+   "config": "617",
+   "prefix": [
+    2,
+    8
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,9": {
+   "config": "617",
+   "prefix": [
+    2,
+    9
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,10": {
+   "config": "617",
+   "prefix": [
+    2,
+    10
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,11": {
+   "config": "617",
+   "prefix": [
+    2,
+    11
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,12": {
+   "config": "617",
+   "prefix": [
+    2,
+    12
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,13": {
+   "config": "617",
+   "prefix": [
+    2,
+    13
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,14": {
+   "config": "617",
+   "prefix": [
+    2,
+    14
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,15": {
+   "config": "617",
+   "prefix": [
+    2,
+    15
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,16": {
+   "config": "617",
+   "prefix": [
+    2,
+    16
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,17": {
+   "config": "617",
+   "prefix": [
+    2,
+    17
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,18": {
+   "config": "617",
+   "prefix": [
+    2,
+    18
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,19": {
+   "config": "617",
+   "prefix": [
+    2,
+    19
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,20": {
+   "config": "617",
+   "prefix": [
+    2,
+    20
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,21": {
+   "config": "617",
+   "prefix": [
+    2,
+    21
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,22": {
+   "config": "617",
+   "prefix": [
+    2,
+    22
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,23": {
+   "config": "617",
+   "prefix": [
+    2,
+    23
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,24": {
+   "config": "617",
+   "prefix": [
+    2,
+    24
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,25": {
+   "config": "617",
+   "prefix": [
+    2,
+    25
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,26": {
+   "config": "617",
+   "prefix": [
+    2,
+    26
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,27": {
+   "config": "617",
+   "prefix": [
+    2,
+    27
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,28": {
+   "config": "617",
+   "prefix": [
+    2,
+    28
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,29": {
+   "config": "617",
+   "prefix": [
+    2,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,30": {
+   "config": "617",
+   "prefix": [
+    2,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:2,31": {
+   "config": "617",
+   "prefix": [
+    2,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:26,0": {
+   "config": "617",
+   "prefix": [
+    26,
+    0
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:26,1": {
+   "config": "617",
+   "prefix": [
+    26,
+    1
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:26,2": {
+   "config": "617",
+   "prefix": [
+    26,
+    2
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:25,0": {
+   "config": "617",
+   "prefix": [
+    25,
+    0
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:25,1": {
+   "config": "617",
+   "prefix": [
+    25,
+    1
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:25,2": {
+   "config": "617",
+   "prefix": [
+    25,
+    2
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:25,3": {
+   "config": "617",
+   "prefix": [
+    25,
+    3
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:24,0": {
+   "config": "617",
+   "prefix": [
+    24,
+    0
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:24,1": {
+   "config": "617",
+   "prefix": [
+    24,
+    1
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:24,2": {
+   "config": "617",
+   "prefix": [
+    24,
+    2
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:24,3": {
+   "config": "617",
+   "prefix": [
+    24,
+    3
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:24,4": {
+   "config": "617",
+   "prefix": [
+    24,
+    4
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,26": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    26
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,27": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    27
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,28": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    28
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,29": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,30": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,31": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,32": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    32
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,33": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    33
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,34": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    34
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,35": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    35
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,36": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    36
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,37": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    37
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,3,38": {
+   "config": "617",
+   "prefix": [
+    0,
+    3,
+    38
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,24": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    24
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,25": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    25
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,26": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    26
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,27": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    27
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,28": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    28
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,29": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,30": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,31": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,32": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    32
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,33": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    33
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,34": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    34
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,35": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    35
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,4,36": {
+   "config": "617",
+   "prefix": [
+    0,
+    4,
+    36
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,22": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    22
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,23": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    23
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,24": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    24
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,25": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    25
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,26": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    26
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,27": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    27
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,28": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    28
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,29": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    29
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,30": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    30
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,31": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    31
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,32": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    32
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,33": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    33
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,34": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    34
+   ],
+   "status": "open",
+   "children": []
+  },
+  "617:0,5,35": {
+   "config": "617",
+   "prefix": [
+    0,
+    5,
+    35
+   ],
+   "status": "open",
+   "children": []
+  }
+ },
+ "counts": {
+  "pruned_certified": 274418,
+  "surviving": 0,
+  "open": 0
+ },
+ "open_nodes": [],
+ "coverage_fraction": 1.0,
+ "updated_utc": "2026-11-04T05:13:45Z",
+ "nonlinear_used": true,
+ "triple_used": true,
+ "point_pairs_used": true,
+ "point_triples_used": true,
+ "nonfano_used": true,
+ "rich_used": true,
+ "extra_used": true,
+ "point_mix_used": true,
+ "round_degree_used": true,
+ "domain_attempts": [
+  "out/domain14_D7_617_m1ge1_phase.json",
+  "out/domain14_D7_617_m1ge1_subset_bounded.json"
+ ],
+ "point_subset_used": true
+}

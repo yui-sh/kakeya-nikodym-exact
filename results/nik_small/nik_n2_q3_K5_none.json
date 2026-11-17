@@ -1,0 +1,20 @@
+{
+ "cnf": "nik_n2_q3_K5_none.cnf",
+ "cnf_sha256": "2387f2430c76772fd6c5208cfb3a869694574246655195a13824f9f4324aa9c3",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 0.01,
+ "result": "UNSAT",
+ "lrat_bytes": 4671,
+ "lrat_sha256": "5b7571026b7d1f4937d05e03ccf4c2afe881fce8a5f398939d67cfaeb71b9929",
+ "trim_seconds": 0.0,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 2444,
+ "trim_lrat_sha256": "a002698b9ce6f9849a2912c2b142357be113adcfefb6e22124fcad527f5a7259",
+ "cake_seconds": 0.01,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

@@ -1,0 +1,9 @@
+{
+ "D": 7,
+ "family": "r6-u17-extra-points-pair-triple-v1",
+ "status": "EXACT_EXTRA14_CHECKED",
+ "types": 5181,
+ "prices": 580272,
+ "mismatches": 0,
+ "method": "ordinary subsets; explicit sorted selected/complement degree assignments including all extras"
+}

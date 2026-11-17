@@ -1,0 +1,1508 @@
+[
+{
+"name": "flag_h_cover",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"8",
+"--K",
+"17",
+"--case",
+"flag_h",
+"--cube",
+"2",
+"--cube-points",
+"9,18",
+"--outdir",
+"../big/nik28cubes/flag_h",
+"--cover",
+"../big/nik28cubes/flag_h_cover.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cover",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"8",
+"--K",
+"17",
+"--case",
+"flag_d",
+"--cube",
+"2",
+"--cube-points",
+"9,18",
+"--outdir",
+"../big/nik28cubes/flag_d",
+"--cover",
+"../big/nik28cubes/flag_d_cover.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube0",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube0.cnf",
+"../big/nik28cubes/flag_h_cube0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube1",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube1.cnf",
+"../big/nik28cubes/flag_h_cube1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube2",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube2.cnf",
+"../big/nik28cubes/flag_h_cube2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube3",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube3.cnf",
+"../big/nik28cubes/flag_h_cube3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube4",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube4.cnf",
+"../big/nik28cubes/flag_h_cube4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube5",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube5.cnf",
+"../big/nik28cubes/flag_h_cube5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube6",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube6.cnf",
+"../big/nik28cubes/flag_h_cube6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube7",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube7.cnf",
+"../big/nik28cubes/flag_h_cube7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube8",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube8.cnf",
+"../big/nik28cubes/flag_h_cube8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube9",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube9.cnf",
+"../big/nik28cubes/flag_h_cube9.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube10",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube10.cnf",
+"../big/nik28cubes/flag_h_cube10.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube11",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube11.cnf",
+"../big/nik28cubes/flag_h_cube11.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube12",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube12.cnf",
+"../big/nik28cubes/flag_h_cube12.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube13",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube13.cnf",
+"../big/nik28cubes/flag_h_cube13.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube14",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube14.cnf",
+"../big/nik28cubes/flag_h_cube14.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube15",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube15.cnf",
+"../big/nik28cubes/flag_h_cube15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube16",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube16.cnf",
+"../big/nik28cubes/flag_h_cube16.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube17",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube17.cnf",
+"../big/nik28cubes/flag_h_cube17.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube18",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube18.cnf",
+"../big/nik28cubes/flag_h_cube18.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube19",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube19.cnf",
+"../big/nik28cubes/flag_h_cube19.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube20",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube20.cnf",
+"../big/nik28cubes/flag_h_cube20.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube21",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube21.cnf",
+"../big/nik28cubes/flag_h_cube21.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube22",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube22.cnf",
+"../big/nik28cubes/flag_h_cube22.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube23",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube23.cnf",
+"../big/nik28cubes/flag_h_cube23.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube24",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube24.cnf",
+"../big/nik28cubes/flag_h_cube24.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube25",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube25.cnf",
+"../big/nik28cubes/flag_h_cube25.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube26",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube26.cnf",
+"../big/nik28cubes/flag_h_cube26.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube27",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube27.cnf",
+"../big/nik28cubes/flag_h_cube27.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube28",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube28.cnf",
+"../big/nik28cubes/flag_h_cube28.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube29",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube29.cnf",
+"../big/nik28cubes/flag_h_cube29.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube30",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube30.cnf",
+"../big/nik28cubes/flag_h_cube30.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube31",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube31.cnf",
+"../big/nik28cubes/flag_h_cube31.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube32",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube32.cnf",
+"../big/nik28cubes/flag_h_cube32.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube33",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube33.cnf",
+"../big/nik28cubes/flag_h_cube33.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube34",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube34.cnf",
+"../big/nik28cubes/flag_h_cube34.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube35",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube35.cnf",
+"../big/nik28cubes/flag_h_cube35.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube36",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube36.cnf",
+"../big/nik28cubes/flag_h_cube36.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube37",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube37.cnf",
+"../big/nik28cubes/flag_h_cube37.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube38",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube38.cnf",
+"../big/nik28cubes/flag_h_cube38.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube39",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube39.cnf",
+"../big/nik28cubes/flag_h_cube39.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube40",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube40.cnf",
+"../big/nik28cubes/flag_h_cube40.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube41",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube41.cnf",
+"../big/nik28cubes/flag_h_cube41.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube42",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube42.cnf",
+"../big/nik28cubes/flag_h_cube42.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube43",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube43.cnf",
+"../big/nik28cubes/flag_h_cube43.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube44",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube44.cnf",
+"../big/nik28cubes/flag_h_cube44.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube45",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube45.cnf",
+"../big/nik28cubes/flag_h_cube45.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube46",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube46.cnf",
+"../big/nik28cubes/flag_h_cube46.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube47",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube47.cnf",
+"../big/nik28cubes/flag_h_cube47.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube48",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube48.cnf",
+"../big/nik28cubes/flag_h_cube48.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube49",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube49.cnf",
+"../big/nik28cubes/flag_h_cube49.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube50",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube50.cnf",
+"../big/nik28cubes/flag_h_cube50.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube51",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube51.cnf",
+"../big/nik28cubes/flag_h_cube51.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube52",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube52.cnf",
+"../big/nik28cubes/flag_h_cube52.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube53",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube53.cnf",
+"../big/nik28cubes/flag_h_cube53.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube54",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube54.cnf",
+"../big/nik28cubes/flag_h_cube54.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube55",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube55.cnf",
+"../big/nik28cubes/flag_h_cube55.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube56",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube56.cnf",
+"../big/nik28cubes/flag_h_cube56.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube57",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube57.cnf",
+"../big/nik28cubes/flag_h_cube57.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube58",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube58.cnf",
+"../big/nik28cubes/flag_h_cube58.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube59",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube59.cnf",
+"../big/nik28cubes/flag_h_cube59.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube60",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube60.cnf",
+"../big/nik28cubes/flag_h_cube60.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube61",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube61.cnf",
+"../big/nik28cubes/flag_h_cube61.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube62",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube62.cnf",
+"../big/nik28cubes/flag_h_cube62.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube63",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube63.cnf",
+"../big/nik28cubes/flag_h_cube63.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube64",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube64.cnf",
+"../big/nik28cubes/flag_h_cube64.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube65",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube65.cnf",
+"../big/nik28cubes/flag_h_cube65.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube66",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube66.cnf",
+"../big/nik28cubes/flag_h_cube66.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube67",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube67.cnf",
+"../big/nik28cubes/flag_h_cube67.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube68",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube68.cnf",
+"../big/nik28cubes/flag_h_cube68.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube69",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube69.cnf",
+"../big/nik28cubes/flag_h_cube69.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube70",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube70.cnf",
+"../big/nik28cubes/flag_h_cube70.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube71",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube71.cnf",
+"../big/nik28cubes/flag_h_cube71.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube72",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube72.cnf",
+"../big/nik28cubes/flag_h_cube72.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube73",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube73.cnf",
+"../big/nik28cubes/flag_h_cube73.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube74",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube74.cnf",
+"../big/nik28cubes/flag_h_cube74.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube75",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube75.cnf",
+"../big/nik28cubes/flag_h_cube75.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube76",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube76.cnf",
+"../big/nik28cubes/flag_h_cube76.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube77",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube77.cnf",
+"../big/nik28cubes/flag_h_cube77.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube78",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube78.cnf",
+"../big/nik28cubes/flag_h_cube78.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube79",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube79.cnf",
+"../big/nik28cubes/flag_h_cube79.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_h_cube80",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_h/cube80.cnf",
+"../big/nik28cubes/flag_h_cube80.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube0",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube0.cnf",
+"../big/nik28cubes/flag_d_cube0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube1",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube1.cnf",
+"../big/nik28cubes/flag_d_cube1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube2",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube2.cnf",
+"../big/nik28cubes/flag_d_cube2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube3",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube3.cnf",
+"../big/nik28cubes/flag_d_cube3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube4",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube4.cnf",
+"../big/nik28cubes/flag_d_cube4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube5",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube5.cnf",
+"../big/nik28cubes/flag_d_cube5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube6",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube6.cnf",
+"../big/nik28cubes/flag_d_cube6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube7",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube7.cnf",
+"../big/nik28cubes/flag_d_cube7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube8",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube8.cnf",
+"../big/nik28cubes/flag_d_cube8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube9",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube9.cnf",
+"../big/nik28cubes/flag_d_cube9.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube10",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube10.cnf",
+"../big/nik28cubes/flag_d_cube10.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube11",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube11.cnf",
+"../big/nik28cubes/flag_d_cube11.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube12",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube12.cnf",
+"../big/nik28cubes/flag_d_cube12.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube13",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube13.cnf",
+"../big/nik28cubes/flag_d_cube13.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube14",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube14.cnf",
+"../big/nik28cubes/flag_d_cube14.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube15",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube15.cnf",
+"../big/nik28cubes/flag_d_cube15.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube16",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube16.cnf",
+"../big/nik28cubes/flag_d_cube16.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube17",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube17.cnf",
+"../big/nik28cubes/flag_d_cube17.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube18",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube18.cnf",
+"../big/nik28cubes/flag_d_cube18.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube19",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube19.cnf",
+"../big/nik28cubes/flag_d_cube19.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube20",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube20.cnf",
+"../big/nik28cubes/flag_d_cube20.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube21",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube21.cnf",
+"../big/nik28cubes/flag_d_cube21.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube22",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube22.cnf",
+"../big/nik28cubes/flag_d_cube22.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube23",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube23.cnf",
+"../big/nik28cubes/flag_d_cube23.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube24",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube24.cnf",
+"../big/nik28cubes/flag_d_cube24.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube25",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube25.cnf",
+"../big/nik28cubes/flag_d_cube25.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube26",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube26.cnf",
+"../big/nik28cubes/flag_d_cube26.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube27",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube27.cnf",
+"../big/nik28cubes/flag_d_cube27.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube28",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube28.cnf",
+"../big/nik28cubes/flag_d_cube28.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube29",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube29.cnf",
+"../big/nik28cubes/flag_d_cube29.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube30",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube30.cnf",
+"../big/nik28cubes/flag_d_cube30.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube31",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube31.cnf",
+"../big/nik28cubes/flag_d_cube31.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube32",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube32.cnf",
+"../big/nik28cubes/flag_d_cube32.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube33",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube33.cnf",
+"../big/nik28cubes/flag_d_cube33.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube34",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube34.cnf",
+"../big/nik28cubes/flag_d_cube34.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube35",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube35.cnf",
+"../big/nik28cubes/flag_d_cube35.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube36",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube36.cnf",
+"../big/nik28cubes/flag_d_cube36.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube37",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube37.cnf",
+"../big/nik28cubes/flag_d_cube37.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube38",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube38.cnf",
+"../big/nik28cubes/flag_d_cube38.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube39",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube39.cnf",
+"../big/nik28cubes/flag_d_cube39.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube40",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube40.cnf",
+"../big/nik28cubes/flag_d_cube40.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube41",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube41.cnf",
+"../big/nik28cubes/flag_d_cube41.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube42",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube42.cnf",
+"../big/nik28cubes/flag_d_cube42.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube43",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube43.cnf",
+"../big/nik28cubes/flag_d_cube43.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube44",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube44.cnf",
+"../big/nik28cubes/flag_d_cube44.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube45",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube45.cnf",
+"../big/nik28cubes/flag_d_cube45.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube46",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube46.cnf",
+"../big/nik28cubes/flag_d_cube46.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube47",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube47.cnf",
+"../big/nik28cubes/flag_d_cube47.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube48",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube48.cnf",
+"../big/nik28cubes/flag_d_cube48.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube49",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube49.cnf",
+"../big/nik28cubes/flag_d_cube49.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube50",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube50.cnf",
+"../big/nik28cubes/flag_d_cube50.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube51",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube51.cnf",
+"../big/nik28cubes/flag_d_cube51.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube52",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube52.cnf",
+"../big/nik28cubes/flag_d_cube52.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube53",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube53.cnf",
+"../big/nik28cubes/flag_d_cube53.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube54",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube54.cnf",
+"../big/nik28cubes/flag_d_cube54.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube55",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube55.cnf",
+"../big/nik28cubes/flag_d_cube55.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube56",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube56.cnf",
+"../big/nik28cubes/flag_d_cube56.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube57",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube57.cnf",
+"../big/nik28cubes/flag_d_cube57.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube58",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube58.cnf",
+"../big/nik28cubes/flag_d_cube58.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube59",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube59.cnf",
+"../big/nik28cubes/flag_d_cube59.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube60",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube60.cnf",
+"../big/nik28cubes/flag_d_cube60.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube61",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube61.cnf",
+"../big/nik28cubes/flag_d_cube61.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube62",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube62.cnf",
+"../big/nik28cubes/flag_d_cube62.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube63",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube63.cnf",
+"../big/nik28cubes/flag_d_cube63.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube64",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube64.cnf",
+"../big/nik28cubes/flag_d_cube64.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube65",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube65.cnf",
+"../big/nik28cubes/flag_d_cube65.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube66",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube66.cnf",
+"../big/nik28cubes/flag_d_cube66.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube67",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube67.cnf",
+"../big/nik28cubes/flag_d_cube67.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube68",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube68.cnf",
+"../big/nik28cubes/flag_d_cube68.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube69",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube69.cnf",
+"../big/nik28cubes/flag_d_cube69.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube70",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube70.cnf",
+"../big/nik28cubes/flag_d_cube70.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube71",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube71.cnf",
+"../big/nik28cubes/flag_d_cube71.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube72",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube72.cnf",
+"../big/nik28cubes/flag_d_cube72.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube73",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube73.cnf",
+"../big/nik28cubes/flag_d_cube73.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube74",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube74.cnf",
+"../big/nik28cubes/flag_d_cube74.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube75",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube75.cnf",
+"../big/nik28cubes/flag_d_cube75.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube76",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube76.cnf",
+"../big/nik28cubes/flag_d_cube76.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube77",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube77.cnf",
+"../big/nik28cubes/flag_d_cube77.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube78",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube78.cnf",
+"../big/nik28cubes/flag_d_cube78.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube79",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube79.cnf",
+"../big/nik28cubes/flag_d_cube79.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "flag_d_cube80",
+"gen": [
+"cp",
+"../big/nik28cubes/flag_d/cube80.cnf",
+"../big/nik28cubes/flag_d_cube80.cnf"
+],
+"expect": "UNSAT"
+}
+]

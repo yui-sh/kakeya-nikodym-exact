@@ -1,0 +1,7 @@
+{
+ "D": 7,
+ "types": 371813,
+ "prices": 18590650,
+ "mismatches": 0,
+ "method": "fresh exhaustive selected-multiplicity allocations before reading old prices"
+}

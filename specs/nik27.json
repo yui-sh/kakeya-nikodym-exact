@@ -1,0 +1,74 @@
+[
+{
+"name": "nik_n2_q7_K14_flag_h",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"7",
+"--K",
+"14",
+"--case",
+"flag_h",
+"--out",
+"../big/nik27/nik_n2_q7_K14_flag_h.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n2_q7_K13_flag_h",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"7",
+"--K",
+"13",
+"--case",
+"flag_h",
+"--out",
+"../big/nik27/nik_n2_q7_K13_flag_h.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n2_q7_K14_flag_d",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"7",
+"--K",
+"14",
+"--case",
+"flag_d",
+"--out",
+"../big/nik27/nik_n2_q7_K14_flag_d.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n2_q7_K13_flag_d",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"7",
+"--K",
+"13",
+"--case",
+"flag_d",
+"--out",
+"../big/nik27/nik_n2_q7_K13_flag_d.cnf"
+],
+"expect": "SAT"
+}
+]

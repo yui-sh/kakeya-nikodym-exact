@@ -1,0 +1,242 @@
+{
+ "required_certificates": 82,
+ "files": [
+  {
+   "file": "out/lp_probe_rmax4.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "f65a2ecc13a315845d7a211846c88fcab1c1a45f4de9caa5e251b1260ef85555"
+  },
+  {
+   "file": "out/lp_probe_cfg_5_21.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "867acef736c7a32ab4f81e1d3041fc9c01d0b1c0aa8d95d6dbca03f9c66ec417"
+  },
+  {
+   "file": "out/lp_probe_cfg_5_18.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "4a31d2c06f41b0d0b06a2806011d5d6e54af03712560af76702b3990af9aca21"
+  },
+  {
+   "file": "out/lp_probe_cfg_5_17.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "29068f89975ede3b7c43f97b5073f2c94839dd37c20fa7b60502588cb717161e"
+  },
+  {
+   "file": "out/lp_probe_cfg_5_16.json",
+   "required_D": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "2ebbc904e6c083f27422a16dbf5f7f67491e687e7dbcbb3c01483b04b3a77093"
+  },
+  {
+   "file": "out/lp_probe_cfg_5_15.json",
+   "required_D": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "eeb97f5636d15d2bb899048b038ecbd74e45069898761b996af789b77ebb9172"
+  },
+  {
+   "file": "out/lp_probe_cfg_6_25.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "620f021ec5907a9015faccd718519ccee66a11fd56d019d0f03cd9a02665d340"
+  },
+  {
+   "file": "out/lp_probe_cfg_6_21.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "4abd3202d334343c558c9d1fa42d37bdbda6a5add4378e4a63affbbb23fe9ab4"
+  },
+  {
+   "file": "out/lp_probe_cfg_6_19.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "8a9e09888e3534df4ab49e825e98bbbc25ca53ffad98011569d861bbaad7c2b8"
+  },
+  {
+   "file": "out/lp_probe_cfg_6_18.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "66eef84076e8c5519bb134aa7dbfab3ed7f0175439b87535a0436e314bf4e85f"
+  },
+  {
+   "file": "out/lp_probe_cfg_6_17.json",
+   "required_D": [
+    8,
+    9,
+    10,
+    11
+   ],
+   "sha256": "ca4087c4bae18a503d1d25d21b1e3f6b6a1731ef9fb4166c5d8a11ee7b5e892c"
+  },
+  {
+   "file": "out/lp_probe_f7_cfg_5_15.json",
+   "required_D": [
+    4
+   ],
+   "sha256": "7abea051ca89f62ad1fff78355a5550b3222f31cf9727ef16bcdcd20d87d1dbe"
+  },
+  {
+   "file": "out/lp_probe_f7_cfg_5_16.json",
+   "required_D": [
+    4,
+    5,
+    6,
+    7
+   ],
+   "sha256": "2548eff37a2577e68e80774d7a36410fa4faea4c5c9eb3b0abc49673b0da6bff"
+  },
+  {
+   "file": "out/lp_probe_f7_cfg_6_17.json",
+   "required_D": [
+    4
+   ],
+   "sha256": "53ad35c8204292ebd758c36454fc66fbe1531743ee9f697021c9e59f65d1b28b"
+  }
+ ],
+ "affine_orbits": [
+  [
+   5,
+   21
+  ],
+  [
+   5,
+   18
+  ],
+  [
+   5,
+   17
+  ],
+  [
+   5,
+   17
+  ],
+  [
+   5,
+   16
+  ],
+  [
+   5,
+   15
+  ],
+  [
+   6,
+   25
+  ],
+  [
+   6,
+   21
+  ],
+  [
+   6,
+   19
+  ],
+  [
+   6,
+   18
+  ],
+  [
+   6,
+   19
+  ],
+  [
+   6,
+   17
+  ]
+ ],
+ "elementary_degree_range": [
+  4,
+  11
+ ],
+ "remaining_after_V_VI": {
+  "degrees": [
+   5,
+   6,
+   7
+  ],
+  "configurations": [
+   [
+    5,
+    15
+   ],
+   [
+    6,
+    17
+   ]
+  ]
+ }
+}

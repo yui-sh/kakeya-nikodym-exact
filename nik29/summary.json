@@ -1,0 +1,62 @@
+{
+ "nik29ctrl7": {
+  "cases": 32,
+  "verified": 30,
+  "sat": 2,
+  "missing": 0,
+  "other": 0,
+  "cadical": 5.139999999999996,
+  "trim": 0.48000000000000004,
+  "cake": 1.5200000000000005,
+  "max_cadical": 0.51,
+  "max_lrat": 4809413
+ },
+ "nik29sat": {
+  "cases": 4,
+  "verified": 2,
+  "sat": 2,
+  "missing": 0,
+  "other": 0,
+  "cadical": 126.88,
+  "trim": 4.71,
+  "cake": 22.96,
+  "max_cadical": 70.36,
+  "max_lrat": 376815336
+ },
+ "nik29": {
+  "cases": 17,
+  "verified": 17,
+  "sat": 0,
+  "missing": 0,
+  "other": 0,
+  "cadical": 1954.68,
+  "trim": 46.209999999999994,
+  "cake": 166.64999999999998,
+  "max_cadical": 1460.13,
+  "max_lrat": 3896123395
+ },
+ "nik29cubes_s4": {
+  "cases": 606,
+  "verified": 606,
+  "sat": 0,
+  "missing": 0,
+  "other": 0,
+  "cadical": 155898.05000000008,
+  "trim": 3982.340000000007,
+  "cake": 13618.520000000028,
+  "max_cadical": 667.12,
+  "max_lrat": 1940921419
+ },
+ "nik29cubes_s5": {
+  "cases": 505,
+  "verified": 505,
+  "sat": 0,
+  "missing": 0,
+  "other": 0,
+  "cadical": 20110.980000000025,
+  "trim": 761.2499999999997,
+  "cake": 2544.4399999999973,
+  "max_cadical": 112.62,
+  "max_lrat": 423566700
+ }
+}

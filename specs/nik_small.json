@@ -1,0 +1,218 @@
+[
+{
+"name": "nik_n2_q2_K3_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"2",
+"--K",
+"3",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q2_K3_none.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n2_q2_K2_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"2",
+"--K",
+"2",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q2_K2_none.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n2_q3_K5_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"3",
+"--K",
+"5",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q3_K5_none.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n2_q3_K4_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"3",
+"--K",
+"4",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q3_K4_none.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n2_q4_K7_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"4",
+"--K",
+"7",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q4_K7_none.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n2_q4_K6_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"4",
+"--K",
+"6",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q4_K6_none.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n2_q5_K9_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"5",
+"--K",
+"9",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q5_K9_none.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n2_q5_K8_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"2",
+"--q",
+"5",
+"--K",
+"8",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n2_q5_K8_none.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n3_q2_K7_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"3",
+"--q",
+"2",
+"--K",
+"7",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n3_q2_K7_none.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n3_q2_K6_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"3",
+"--q",
+"2",
+"--K",
+"6",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n3_q2_K6_none.cnf"
+],
+"expect": "SAT"
+},
+{
+"name": "nik_n3_q3_K19_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"3",
+"--q",
+"3",
+"--K",
+"19",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n3_q3_K19_none.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "nik_n3_q3_K18_none",
+"gen": [
+"python3",
+"enc_nikodym.py",
+"--n",
+"3",
+"--q",
+"3",
+"--K",
+"18",
+"--case",
+"none",
+"--out",
+"../big/nik_small/nik_n3_q3_K18_none.cnf"
+],
+"expect": "SAT"
+}
+]

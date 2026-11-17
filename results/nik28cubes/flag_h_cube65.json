@@ -1,0 +1,20 @@
+{
+ "cnf": "flag_h_cube65.cnf",
+ "cnf_sha256": "2a749627ed210df41bb2e00cf7e542113a863f712dbd390267edca2513a90b20",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 0.02,
+ "result": "UNSAT",
+ "lrat_bytes": 38488,
+ "lrat_sha256": "d891d3335f2032ec9d8d72093be5d6aa715b28c9c2cee4b6290b675322919fbe",
+ "trim_seconds": 0.01,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 22080,
+ "trim_lrat_sha256": "33881c20f72f4ecc87ab4373ded4e599e6231574eccd174d054861aa0cd715c9",
+ "cake_seconds": 0.05,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

@@ -1,0 +1,1137 @@
+[
+{
+"name": "cap_3_2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"3",
+"2",
+"--out",
+"../big/k43/cap_3_2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_4_2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"4",
+"2",
+"--out",
+"../big/k43/cap_4_2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_5_3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"5",
+"3",
+"--out",
+"../big/k43/cap_5_3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_6_4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"6",
+"4",
+"--out",
+"../big/k43/cap_6_4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_7_5",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"7",
+"5",
+"--out",
+"../big/k43/cap_7_5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_8_5",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"8",
+"5",
+"--out",
+"../big/k43/cap_8_5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_9_7",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"9",
+"7",
+"--out",
+"../big/k43/cap_9_7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_10_8",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"10",
+"8",
+"--out",
+"../big/k43/cap_10_8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_11_10",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"11",
+"10",
+"--out",
+"../big/k43/cap_11_10.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "cap_12_11",
+"gen": [
+"python3",
+"enc_k43.py",
+"--cap",
+"12",
+"11",
+"--out",
+"../big/k43/cap_12_11.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_4_9_13_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"4",
+"9",
+"13",
+"0",
+"--out",
+"../big/k43/case_4_9_13_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_4_9_13_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"4",
+"9",
+"13",
+"1",
+"--out",
+"../big/k43/case_4_9_13_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_4_9_13_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"4",
+"9",
+"13",
+"2",
+"--out",
+"../big/k43/case_4_9_13_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_4_10_12_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"4",
+"10",
+"12",
+"0",
+"--out",
+"../big/k43/case_4_10_12_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_4_10_12_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"4",
+"10",
+"12",
+"1",
+"--out",
+"../big/k43/case_4_10_12_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_4_10_12_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"4",
+"10",
+"12",
+"2",
+"--out",
+"../big/k43/case_4_10_12_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_7_14_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"7",
+"14",
+"0",
+"--out",
+"../big/k43/case_5_7_14_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_7_14_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"7",
+"14",
+"1",
+"--out",
+"../big/k43/case_5_7_14_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_7_14_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"7",
+"14",
+"2",
+"--out",
+"../big/k43/case_5_7_14_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_7_14_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"7",
+"14",
+"3",
+"--out",
+"../big/k43/case_5_7_14_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_7_14_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"7",
+"14",
+"4",
+"--out",
+"../big/k43/case_5_7_14_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_8_13_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"8",
+"13",
+"0",
+"--out",
+"../big/k43/case_5_8_13_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_8_13_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"8",
+"13",
+"1",
+"--out",
+"../big/k43/case_5_8_13_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_8_13_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"8",
+"13",
+"2",
+"--out",
+"../big/k43/case_5_8_13_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_8_13_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"8",
+"13",
+"3",
+"--out",
+"../big/k43/case_5_8_13_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_8_13_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"8",
+"13",
+"4",
+"--out",
+"../big/k43/case_5_8_13_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_9_12_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"9",
+"12",
+"0",
+"--out",
+"../big/k43/case_5_9_12_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_9_12_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"9",
+"12",
+"1",
+"--out",
+"../big/k43/case_5_9_12_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_9_12_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"9",
+"12",
+"2",
+"--out",
+"../big/k43/case_5_9_12_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_9_12_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"9",
+"12",
+"3",
+"--out",
+"../big/k43/case_5_9_12_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_5_9_12_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"5",
+"9",
+"12",
+"4",
+"--out",
+"../big/k43/case_5_9_12_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"0",
+"--out",
+"../big/k43/case_6_6_14_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"1",
+"--out",
+"../big/k43/case_6_6_14_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"2",
+"--out",
+"../big/k43/case_6_6_14_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"3",
+"--out",
+"../big/k43/case_6_6_14_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"4",
+"--out",
+"../big/k43/case_6_6_14_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r5",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"5",
+"--out",
+"../big/k43/case_6_6_14_r5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r6",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"6",
+"--out",
+"../big/k43/case_6_6_14_r6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r7",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"7",
+"--out",
+"../big/k43/case_6_6_14_r7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r8",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"8",
+"--out",
+"../big/k43/case_6_6_14_r8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_6_14_r9",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"6",
+"14",
+"9",
+"--out",
+"../big/k43/case_6_6_14_r9.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"0",
+"--out",
+"../big/k43/case_6_7_13_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"1",
+"--out",
+"../big/k43/case_6_7_13_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"2",
+"--out",
+"../big/k43/case_6_7_13_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"3",
+"--out",
+"../big/k43/case_6_7_13_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"4",
+"--out",
+"../big/k43/case_6_7_13_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r5",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"5",
+"--out",
+"../big/k43/case_6_7_13_r5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r6",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"6",
+"--out",
+"../big/k43/case_6_7_13_r6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r7",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"7",
+"--out",
+"../big/k43/case_6_7_13_r7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r8",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"8",
+"--out",
+"../big/k43/case_6_7_13_r8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_7_13_r9",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"7",
+"13",
+"9",
+"--out",
+"../big/k43/case_6_7_13_r9.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"0",
+"--out",
+"../big/k43/case_6_8_12_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"1",
+"--out",
+"../big/k43/case_6_8_12_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"2",
+"--out",
+"../big/k43/case_6_8_12_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"3",
+"--out",
+"../big/k43/case_6_8_12_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"4",
+"--out",
+"../big/k43/case_6_8_12_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r5",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"5",
+"--out",
+"../big/k43/case_6_8_12_r5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r6",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"6",
+"--out",
+"../big/k43/case_6_8_12_r6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r7",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"7",
+"--out",
+"../big/k43/case_6_8_12_r7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r8",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"8",
+"--out",
+"../big/k43/case_6_8_12_r8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_6_8_12_r9",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"6",
+"8",
+"12",
+"9",
+"--out",
+"../big/k43/case_6_8_12_r9.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r0",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"0",
+"--out",
+"../big/k43/case_7_7_12_r0.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r1",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"1",
+"--out",
+"../big/k43/case_7_7_12_r1.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r2",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"2",
+"--out",
+"../big/k43/case_7_7_12_r2.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r3",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"3",
+"--out",
+"../big/k43/case_7_7_12_r3.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r4",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"4",
+"--out",
+"../big/k43/case_7_7_12_r4.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r5",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"5",
+"--out",
+"../big/k43/case_7_7_12_r5.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r6",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"6",
+"--out",
+"../big/k43/case_7_7_12_r6.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r7",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"7",
+"--out",
+"../big/k43/case_7_7_12_r7.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r8",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"8",
+"--out",
+"../big/k43/case_7_7_12_r8.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r9",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"9",
+"--out",
+"../big/k43/case_7_7_12_r9.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r10",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"10",
+"--out",
+"../big/k43/case_7_7_12_r10.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r11",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"11",
+"--out",
+"../big/k43/case_7_7_12_r11.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r12",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"12",
+"--out",
+"../big/k43/case_7_7_12_r12.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r13",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"13",
+"--out",
+"../big/k43/case_7_7_12_r13.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r14",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"14",
+"--out",
+"../big/k43/case_7_7_12_r14.cnf"
+],
+"expect": "UNSAT"
+},
+{
+"name": "case_7_7_12_r15",
+"gen": [
+"python3",
+"enc_k43.py",
+"--case",
+"7",
+"7",
+"12",
+"15",
+"--out",
+"../big/k43/case_7_7_12_r15.cnf"
+],
+"expect": "UNSAT"
+}
+]

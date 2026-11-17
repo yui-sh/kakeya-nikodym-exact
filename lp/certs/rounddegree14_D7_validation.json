@@ -1,0 +1,32 @@
+{
+ "D": 7,
+ "family": "parallel-degree-subset-rounding-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "class_bound_checks": 7488,
+   "generated_model_checks": 600,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "class_bound_checks": 12096,
+   "generated_model_checks": 600,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "class_bound_checks": 17856,
+   "generated_model_checks": 600,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "class_bound_checks": 17856,
+   "generated_model_checks": 600,
+   "violations": 0
+  }
+ ],
+ "exhaustive_five_part_bound_checks": 538384
+}

@@ -1,0 +1,32 @@
+{
+ "D": 7,
+ "family": "r6-u17-extra-points-pair-triple-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "checks": 4368,
+   "extra_point_incidences": 52,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "checks": 9408,
+   "extra_point_incidences": 264,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "checks": 17360,
+   "extra_point_incidences": 891,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "checks": 17360,
+   "extra_point_incidences": 897,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 216
+}

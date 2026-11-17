@@ -1,0 +1,20 @@
+{
+ "cnf": "n20_skew_pair.cnf",
+ "cnf_sha256": "6eb5b1b53609472ef39cade6b33f2d022666c1b595fedd4ac6179311b33e11cf",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 17.23,
+ "result": "UNSAT",
+ "lrat_bytes": 79628117,
+ "lrat_sha256": "a6878874004120707d582c73f08e80e54c32e447282f9d1ee6e2919d884cd309",
+ "trim_seconds": 0.81,
+ "trim_rc": 0,
+ "trim_lrat_bytes": 32131171,
+ "trim_lrat_sha256": "226aaacc1a368229f348b9727f9c787b598cd0c7f664e3eec5a5a8a4c5749cc4",
+ "cake_seconds": 2.15,
+ "cake_verdict": "s VERIFIED UNSAT",
+ "verified": true
+}

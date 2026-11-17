@@ -1,0 +1,41 @@
+{
+ "D": 7,
+ "status": "ZERO_VIOLATIONS",
+ "family": "all-subsets-core-plus-all-coordinate-v1",
+ "geometries": 221,
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "actual_D": 3,
+   "slot_D": 7,
+   "checks": 4914,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "actual_D": 6,
+   "slot_D": 7,
+   "checks": 10584,
+   "full_type_checks": 0,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "actual_D": 6,
+   "slot_D": 7,
+   "checks": 19530,
+   "full_type_checks": 1008,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "actual_D": 6,
+   "slot_D": 7,
+   "checks": 19530,
+   "full_type_checks": 1512,
+   "violations": 0
+  }
+ ],
+ "brute_cases": 448
+}

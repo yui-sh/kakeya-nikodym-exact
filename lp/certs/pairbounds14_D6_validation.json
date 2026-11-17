@@ -1,0 +1,64 @@
+{
+ "D": 6,
+ "family": "degree-count-product-box-v1",
+ "status": "ZERO_VIOLATIONS",
+ "results": [
+  {
+   "file": "solutions/best_n3_q3_13.json",
+   "degree_counts": [
+    0,
+    0,
+    13,
+    0,
+    0,
+    0
+   ],
+   "boxes": 8,
+   "checks": 624,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q4_28_dvir.json",
+   "degree_counts": [
+    0,
+    15,
+    0,
+    12,
+    0,
+    1
+   ],
+   "boxes": 8,
+   "checks": 624,
+   "violations": 0
+  },
+  {
+   "file": "solutions/best_n3_q5_53.json",
+   "degree_counts": [
+    5,
+    19,
+    10,
+    14,
+    4,
+    1
+   ],
+   "boxes": 8,
+   "checks": 624,
+   "violations": 0
+  },
+  {
+   "file": "solutions/bc_n3_q5_53.json",
+   "degree_counts": [
+    7,
+    19,
+    4,
+    19,
+    2,
+    2
+   ],
+   "boxes": 8,
+   "checks": 624,
+   "violations": 0
+  }
+ ],
+ "brute_checks": 11560
+}

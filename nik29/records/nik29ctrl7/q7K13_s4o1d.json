@@ -1,0 +1,12 @@
+{
+ "cnf": "q7K13_s4o1d.cnf",
+ "cnf_sha256": "5b8cb2b3ba41fc2894ba997730763622031fb881ac3df707c608dc42f5358edb",
+ "tools": {
+  "cadical": "fafdc017e81c48e0418986460cc7738b28c5efb823764c6a7b875c1a321756e2",
+  "lrat-trim": "1c4a4ec77c953dabc6c8b47835c15d94d7bc48fff75fbbcde8b4ff6fb5626129",
+  "cake_lpr": "130816693a5392bbba02cf0c382ac3569542dcbb482ad0b409e8a1136ab4126d"
+ },
+ "cadical_seconds": 0.06,
+ "result": "SAT",
+ "model_file": "/DATA/AppData/YuiChan/yui-home/exploration/spare-capacity/kakeya-public/big/nik29/ctrl7/q7K13_s4o1d.cnf.model"
+}
